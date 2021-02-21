@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "./build/",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src"
+    ]
+}
