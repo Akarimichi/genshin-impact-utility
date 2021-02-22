@@ -70,6 +70,10 @@ module.exports = {
                 test: /\.ttf$/,
                 use: ['file-loader'],
             },
+            {
+                test: /\.(?:ico|gif|png|jpg|jpeg|webp)$/,
+                use: 'url-loader'
+            }
         ],
     },
     plugins: [

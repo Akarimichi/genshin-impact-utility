@@ -3,7 +3,9 @@ import { Store } from 'redux';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import { History } from 'history';
-import Routes from './routes';
+import Footer from './footer';
+import Header from './header';
+import Body from './body';
 
 type Props = {
     store: Store;
@@ -13,7 +15,9 @@ type Props = {
 const Root = ({ store, history }: Props) => (
     <Provider store={store}>
         <ConnectedRouter history={history}>
-            {Routes}
+            <Header />
+            <Body />
+            <Footer/>
         </ConnectedRouter>
     </Provider>
 );

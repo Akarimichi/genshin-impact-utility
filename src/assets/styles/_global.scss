@@ -1,0 +1,171 @@
+
+/*
+* Implements Font
+*/
+
+@font-face {
+    font-family: 'HYWenHei-85W';
+    src: url('../fonts/HYWenHei-85W.ttf');
+}
+
+
+/*
+* Implements Minireset.css | MIT License | github.com/jgthms/minireset.css
+*/
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img,
+video {
+    -webkit-user-drag: none;
+    height: auto;
+    max-width: 100%;
+}
+
+iframe {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+    text-align: left;
+}
+
+canvas{
+    outline: none!important;
+}
+
+/*
+* Implements Base CSS
+*/
+
+html {
+
+    body {
+
+        font-family: 'HYWenHei-85W';
+        color: var(--color-txt-black);
+        font-size: 1rem;
+
+        #app{
+
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+
+            .body-content {
+                flex-grow:1;
+                padding: 15px;
+            }
+
+            footer{
+                background-color: var(--color-bg-grey-blue);
+                outline: 3px solid var(--color-border-grey-blue);
+                outline-offset: -5px;
+                padding: 15px;
+                min-height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: var(--color-txt-white);
+            }
+        }
+
+    }
+}
+/*
+@media only screen and (orientation:portrait){
+
+  #app {
+
+   height: 100vw;
+
+   -webkit-transform: rotate(90deg);
+
+   -moz-transform: rotate(90deg);
+
+   -o-transform: rotate(90deg);
+
+   -ms-transform: rotate(90deg);
+
+   transform: rotate(90deg);
+
+  }
+
+}
+
+@media only screen and (orientation:landscape){
+
+    #app {
+
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+
+    }
+}
+ */

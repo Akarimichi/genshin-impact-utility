@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <>
-            <div><Link to="/achievements">succès</Link></div>
+            <div>Pirates ! <Link to="/achievements">vd</Link></div>
         </>
     );
 };
