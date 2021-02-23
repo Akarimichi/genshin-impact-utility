@@ -6,6 +6,7 @@ import { History } from 'history';
 import Footer from './footer';
 import Header from './header';
 import Body from './body';
+import MobileLandscapeRequired from './mobile-landscape-required';
 
 type Props = {
     store: Store;
@@ -15,9 +16,12 @@ type Props = {
 const Root = ({ store, history }: Props) => (
     <Provider store={store}>
         <ConnectedRouter history={history}>
-            <Header />
-            <Body />
-            <Footer/>
+            <MobileLandscapeRequired/>
+            <div className="body-container">
+                <Header />
+                <Body />
+                <Footer/>
+            </div>
         </ConnectedRouter>
     </Provider>
 );

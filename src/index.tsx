@@ -6,9 +6,6 @@ import './assets/styles/app.scss';
 
 const store = configureStore();
 
-// Force mobile orientation to landscape
-screen.orientation.lock('landscape');
-
 document.addEventListener('DOMContentLoaded', () =>
     render(
         <>

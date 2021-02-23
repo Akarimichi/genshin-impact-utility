@@ -1,6 +1,7 @@
 declare const styles: {
-  readonly "app": string;
+  readonly "body-container": string;
   readonly "body-content": string;
+  readonly "mobile-landscape-required": string;
 };
 export = styles;
 
