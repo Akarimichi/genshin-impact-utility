@@ -68,11 +68,17 @@ module.exports = {
             },
             {
                 test: /\.ttf$/,
-                use: ['file-loader'],
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'fonts'
+                }
             },
             {
-                test: /\.(?:ico|gif|png|jpg|jpeg|webp)$/,
-                use: 'url-loader'
+                test: /\.(gif|png|jpg|jpeg|webp)$/,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'images'
+                }
             }
         ],
     },
