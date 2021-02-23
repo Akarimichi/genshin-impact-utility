@@ -18,7 +18,7 @@ const Root = ({ store, history }: Props) => (
         <ConnectedRouter history={history}>
             <MobileLandscapeRequired/>
             <div className="body-container">
-                <Header />
+                {/* <Header /> */}
                 <Body />
                 <Footer/>
             </div>

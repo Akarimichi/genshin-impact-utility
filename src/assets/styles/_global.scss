@@ -108,7 +108,6 @@ html {
         color: var(--color-txt-black);
         font-size: 1rem;
 
-
         .body-container{
 
             min-height: 100vh;
@@ -122,6 +121,9 @@ html {
             .body-content {
                 flex-grow:1;
                 padding: 15px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
 
             footer{
