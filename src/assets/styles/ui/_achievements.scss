@@ -138,6 +138,77 @@
             }
 
         }
+
+        .book-achievements-content-block{
+            padding: 20px;
+
+            .book-achievements-row{
+                display: flex;
+                background-color: var(--color-bg-white-light);
+                border: 2px solid var(--color-border-brown-light);
+                box-shadow: var(--color-shadow-brown-light);
+                -webkit-box-shadow: var(--color-shadow-brown-light);
+                -moz-box-shadow: var(--color-shadow-brown-light);
+                margin-bottom: 6px;
+
+                .book-achievements-row-head{
+                    padding: 10px 20px;
+                    img {
+                        width: 98px;
+                    }
+                }
+
+                .book-achievements-row-desc{
+                    padding: 10px;
+
+                    display: flex;
+                    flex-direction: column;
+
+                    span{
+                        margin-top: auto;
+                        font-size: 1.6rem;
+                    }
+
+                    p{
+                        margin-top: 10px;
+                        margin-bottom: auto;
+                        font-size: 1.3rem;
+                        color: var(--color-txt-brown-light);
+                    }
+                }
+
+                .book-achievements-row-primogem{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    margin-left: auto;
+                    padding: 10px 25px;
+                    position: relative;
+
+                    span{
+                        position: absolute;
+                        bottom: 21.5px;
+                        color: var(--color-txt-white-light);
+                    }
+
+                    img {
+                        width: 80px;
+                    }
+                }
+
+                .book-achievements-row-foot{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    background-color: var(--color-bg-white-dark);
+                    width: 200px;
+                    font-size: 1.3rem;
+                    color: var(--color-txt-brown-light);
+                }
+            }
+        }
     }
 
 }

@@ -1,6 +1,12 @@
 declare const styles: {
   readonly "book-achievements": string;
   readonly "book-achievements-content": string;
+  readonly "book-achievements-content-block": string;
+  readonly "book-achievements-row": string;
+  readonly "book-achievements-row-desc": string;
+  readonly "book-achievements-row-foot": string;
+  readonly "book-achievements-row-head": string;
+  readonly "book-achievements-row-primogem": string;
   readonly "corner": string;
   readonly "corner-bottom-left": string;
   readonly "corner-bottom-right": string;

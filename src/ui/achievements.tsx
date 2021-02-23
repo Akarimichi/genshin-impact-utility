@@ -6,6 +6,11 @@ import ImgBookDeco3 from '../assets/images/achievements/book_achievements_deco_3
 import ImgBookDeco4 from '../assets/images/achievements/book_achievements_deco_4.png';
 import ImgBookDeco5 from '../assets/images/achievements/book_achievements_deco_5.png';
 import ImgBookDeco6 from '../assets/images/achievements/book_achievements_deco_6.png';
+import ImgAchievement from '../assets/images/achievements/achievement.png';
+import ImgPrimogem from '../assets/images/achievements/primogem.png';
+
+
+const test = [1, 2, 3];
 
 const Achievements = () => {
     return (
@@ -24,6 +29,33 @@ const Achievements = () => {
                 <span className="deco-4"><img src={ImgBookDeco4} /></span>
                 <span className="deco-5"><img src={ImgBookDeco5} /></span>
                 <span className="deco-6"><img src={ImgBookDeco6} /></span>
+
+                <div className="book-achievements-content-block">
+                    {test.map((item) => (
+
+                        <div className="book-achievements-row">
+
+                            <div className="book-achievements-row-head">
+                                <img className="icon-achievement" src={ImgAchievement} />
+                            </div>
+
+                            <div className="book-achievements-row-desc">
+                                <span>Pirates !</span>
+                                <p>Jouez aux pirates avec Lulu, Fei et Petit Meng.</p>
+                            </div>
+
+                            <div className="book-achievements-row-primogem">
+                                <img src={ImgPrimogem} />
+                                <span>5</span>
+                            </div>
+
+                            <div className="book-achievements-row-foot">
+                                0/1
+                            </div>
+
+                        </div>
+                    ))}
+                </div>
 
             </div>
         </div>
