@@ -100,7 +100,16 @@ canvas{
 * Implements Base CSS
 */
 
+html,
+a,
+body.os-dragging,
+body.os-dragging * {
+	cursor: url('../images/cursor.png'), auto!important;
+}
+
 html {
+
+    user-select: none;
 
     body {
 

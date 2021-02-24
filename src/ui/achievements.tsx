@@ -1,4 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import HiddenAchievements from '../data/hidden-achievements.json';
+import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
+
+/* Import images */
+
 import ImgBookCorner from '../assets/images/achievements/book_achievements_corner.png';
 import ImgBookDeco1 from '../assets/images/achievements/book_achievements_deco_1.png';
 import ImgBookDeco2 from '../assets/images/achievements/book_achievements_deco_2.png';
@@ -10,9 +15,8 @@ import ImgAchievement from '../assets/images/achievements/achievement.png';
 import ImgPrimogem from '../assets/images/achievements/primogem.png';
 
 
-const test = [1, 2, 3];
-
 const Achievements = () => {
+
     return (
         <div className="book-achievements">
             <div className="book-achievements-content">
@@ -30,32 +34,34 @@ const Achievements = () => {
                 <span className="deco-5"><img src={ImgBookDeco5} /></span>
                 <span className="deco-6"><img src={ImgBookDeco6} /></span>
 
-                <div className="book-achievements-content-block">
-                    {test.map((item) => (
-
-                        <div className="book-achievements-row">
+                <OverlayScrollbarsComponent
+                    className="book-achievements-content-block os-theme-book-achievement"
+                    options={{ scrollbars: { clickScrolling: true } }}
+                >
+                    {HiddenAchievements.map((item) => (
+                        <div className="book-achievements-row" key={item.id}>
 
                             <div className="book-achievements-row-head">
                                 <img className="icon-achievement" src={ImgAchievement} />
                             </div>
 
                             <div className="book-achievements-row-desc">
-                                <span>Pirates !</span>
-                                <p>Jouez aux pirates avec Lulu, Fei et Petit Meng.</p>
+                                <span>{item.name.en}</span>
+                                <p>{item.description.en}</p>
                             </div>
 
                             <div className="book-achievements-row-primogem">
                                 <img src={ImgPrimogem} />
-                                <span>5</span>
+                                <span>{item.reward}</span>
                             </div>
 
                             <div className="book-achievements-row-foot">
-                                0/1
+                                {item.progress}
                             </div>
 
                         </div>
                     ))}
-                </div>
+                </OverlayScrollbarsComponent>
 
             </div>
         </div>
