@@ -1,16 +1,15 @@
-.book-achievements{
+.book {
 
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 450px;
     background-color: var(--color-border-blue-dark);
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 70px;
     max-width: 61.95%;
-    margin-left: auto;
     margin-right: 35px;
+    margin-left: auto;
+    margin-bottom: 70px;
 
     &:after {
         content: '';
@@ -25,7 +24,7 @@
         z-index: 1;
     }
 
-    .book-achievements-content{
+    .book__content {
         position: relative;
         flex-grow: 1;
         background-color: var(--color-bg-white);
@@ -33,33 +32,28 @@
         border-radius: 8px;
         z-index: 2;
 
-        img {
-            height: auto;
-            max-width: auto;
-        }
-
-        .deco-1{
+        .deco-1 {
             position: absolute;
             z-index: 1;
             right: -55px;
             top: 60px;
         }
 
-        .deco-2{
+        .deco-2 {
             position: absolute;
             z-index: 1;
             bottom: -69px;
             left: 8px;
         }
 
-        .deco-3-1{
+        .deco-3-1 {
             position: absolute;
             z-index: 1;
             bottom: 20px;
             left: -22px;
         }
 
-        .deco-3-2{
+        .deco-3-2 {
             position: absolute;
             z-index: 1;
             top: 25px;
@@ -71,7 +65,7 @@
 
         }
 
-        .deco-3-3{
+        .deco-3-3 {
             position: absolute;
             z-index: 1;
             top: -49px;
@@ -83,28 +77,28 @@
 
         }
 
-        .deco-4{
+        .deco-4 {
             position: absolute;
             z-index: 1;
             bottom: -95px;
             right: 70px;
         }
 
-        .deco-5{
+        .deco-5 {
             position: absolute;
             z-index: 1;
             bottom: 30px;
             right: -34px;
         }
 
-        .deco-6{
+        .deco-6 {
             position: absolute;
             z-index: 1;
             bottom: -19px;
             right: 25px;
         }
 
-        .corner{
+        .corner {
             position: absolute;
             z-index: 1;
 
@@ -143,13 +137,15 @@
 
         }
 
-        .book-achievements-content-block{
+        .book__content-scroll {
+
             max-height: calc(100vh - 150px);
             overflow: auto;
             width: 100%;
             position: relative;
 
-            .book-achievements-row{
+            .book__row {
+
                 margin: 6px 20px;
                 display: flex;
                 background-color: var(--color-bg-white-light);
@@ -166,7 +162,7 @@
                     margin-top: 20px;
                 }
 
-                &.active{
+                 &.active{
                     margin-left: 15px;
                     margin-right: 15px;
                 }
@@ -178,7 +174,8 @@
                     -moz-box-shadow: var(--color-shadow-orange-light);
                 }
 
-                .book-achievements-row-head{
+                .book__row-picto {
+
                     padding: 10px 20px;
                     width: 100px;
                     align-items: center;
@@ -187,9 +184,11 @@
                     img {
                         width: 100%;
                     }
+
                 }
 
-                .book-achievements-row-desc{
+                .book__row-description {
+
                     padding: 10px;
                     display: flex;
                     flex-direction: column;
@@ -209,7 +208,7 @@
                     }
                 }
 
-                .book-achievements-row-primogem{
+                .book__row-reward {
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -238,7 +237,7 @@
                     }
                 }
 
-                .book-achievements-row-foot{
+                .book__row-progress {
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -248,8 +247,11 @@
                     font-size: 1.1rem;
                     color: var(--color-txt-brown-light);
                 }
+
             }
+
         }
+
     }
 
 }

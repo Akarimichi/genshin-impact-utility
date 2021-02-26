@@ -29,7 +29,6 @@ module.exports = {
             'MemberExpression': 0
         }],
         'linebreak-style': ['error', 'unix'],
-        'quotes': ['error', 'single'],
         'eqeqeq': ['error', 'smart'],
         'max-len': ['error', {
             'code': 100,

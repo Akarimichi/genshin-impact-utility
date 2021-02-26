@@ -12,7 +12,7 @@ declare const styles: {
   readonly "os-scrollbar-track": string;
   readonly "os-scrollbar-unusable": string;
   readonly "os-scrollbar-vertical": string;
-  readonly "os-theme-book-achievement": string;
+  readonly "os-theme-gi-scroll-white": string;
 };
 export = styles;
 

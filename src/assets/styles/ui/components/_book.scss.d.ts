@@ -1,13 +1,13 @@
 declare const styles: {
   readonly "active": string;
-  readonly "book-achievements": string;
-  readonly "book-achievements-content": string;
-  readonly "book-achievements-content-block": string;
-  readonly "book-achievements-row": string;
-  readonly "book-achievements-row-desc": string;
-  readonly "book-achievements-row-foot": string;
-  readonly "book-achievements-row-head": string;
-  readonly "book-achievements-row-primogem": string;
+  readonly "book": string;
+  readonly "book__content": string;
+  readonly "book__content-scroll": string;
+  readonly "book__row": string;
+  readonly "book__row-description": string;
+  readonly "book__row-picto": string;
+  readonly "book__row-progress": string;
+  readonly "book__row-reward": string;
   readonly "corner": string;
   readonly "corner-bottom-left": string;
   readonly "corner-bottom-right": string;

@@ -117,13 +117,13 @@ html {
         color: var(--color-txt-black);
         font-size: 1rem;
 
-        .body-container{
+        .body-container {
 
             min-height: 100vh;
             display: flex;
             flex-direction: column;
 
-            @media only screen and (orientation: portrait){
+            @media only screen and (orientation: portrait) {
                 display: none;
             }
 
@@ -135,7 +135,7 @@ html {
                 background-size: cover;
             }
 
-            footer{
+            footer {
                 background-color: var(--color-bg-grey-blue);
                 outline: 3px solid var(--color-border-grey-blue);
                 outline-offset: -5px;
@@ -150,9 +150,47 @@ html {
 
         }
 
-        .mobile-landscape-required{
+        .mobile-landscape-required {
 
-            @media only screen and (orientation:landscape){
+            position: fixed;
+            background-color: var(--color-bg-black-light);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            .device-icon {
+                height: 105px;
+                width: 210px;
+                border: 2px solid var(--color-border-white);
+                border-radius: 10px;
+                animation: rotate 1.5s ease-in-out infinite alternate;
+                position: relative;
+
+
+                img {
+                    border-radius: 10px;
+                }
+            }
+
+            .message {
+                color: var(--color-txt-white-light);
+                margin-top: 80px;
+            }
+
+
+/* @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+  .phone, .message {
+    display: block;
+  }
+} */
+
+            @media only screen and (orientation:landscape) {
                 display: none;
             }
 

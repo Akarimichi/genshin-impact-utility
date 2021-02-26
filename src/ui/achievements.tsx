@@ -1,6 +1,9 @@
-import React, { useEffect } from 'react';
-import HiddenAchievements from '../data/hidden-achievements.json';
+import React, { useState, useEffect } from 'react';
+import AchievementsJson from '../data/achievements.json';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
+import { Achievement } from '../typings/book';
+
+// Check hammerjs to simulate touch event on mouse
 
 /* Import images */
 
@@ -15,9 +18,42 @@ import ImgAchievement from '../assets/images/achievements/achievement.png';
 import ImgPrimogem from '../assets/images/achievements/primogem.png';
 
 
+import Book from './components/book';
+
+
 const Achievements = () => {
 
-    return (
+    /*  const handleClickBookAchvRow = (event: any) => {
+        const elemDOM = event.currentTarget as HTMLDivElement;
+        elemDOM.classList.add('active', 'focus');
+    }; */
+
+    /* const [rowActive, setRowActive] = useState<number | null>(null);
+    const [rowFocus, setRowFocus] = useState<number | null>(null); */
+
+    // let bookAchievementRowDOM: NodeListOf<Element> = undefined;
+
+    /* useEffect(() => {
+        bookAchievementRowDOM = document.querySelectorAll('.book-achievements .book-achievements-row');
+
+        bookAchievementRowDOM!.forEach((elem: any) => {
+            elem.addEventListener('click', handleClickBookAchvRow);
+        });
+
+        // window.addEventListener('click', handleMenuClickOutside);
+
+        return () => {
+            bookAchievementRowDOM!.forEach((elem: any) => {
+                elem.removeEventListener('click', handleClickBookAchvRow);
+            });
+
+            // windogw.removeEventListener('click', handleMenuClickOutside);
+        };
+    }, [bookAchievementRowDOM]); */
+
+    return <Book achievementTitle={AchievementsJson}/>;
+
+    /* return (
         <div className="book-achievements">
             <div className="book-achievements-content">
 
@@ -39,7 +75,14 @@ const Achievements = () => {
                     options={{ scrollbars: { clickScrolling: true } }}
                 >
                     {HiddenAchievements.map((item) => (
-                        <div className="book-achievements-row" key={item.id}>
+                        <div
+                            className={`book-achievements-row ${(item.id === rowActive ? 'active' : '')} ${(item.id === rowFocus ? 'focus' : '')}`}
+                            onClick={() => {
+                                setRowActive(item.id);
+                                setRowFocus(item.id);
+                            }}
+                            key={item.id}
+                        >
 
                             <div className="book-achievements-row-head">
                                 <img className="icon-achievement" src={ImgAchievement} />
@@ -51,8 +94,10 @@ const Achievements = () => {
                             </div>
 
                             <div className="book-achievements-row-primogem">
-                                <img src={ImgPrimogem} />
-                                <span>{item.reward}</span>
+                                <div>
+                                    <img src={ImgPrimogem} />
+                                    <span>{item.reward}</span>
+                                </div>
                             </div>
 
                             <div className="book-achievements-row-foot">
@@ -65,7 +110,7 @@ const Achievements = () => {
 
             </div>
         </div>
-    );
+    ); */
 };
 
 export default Achievements;
