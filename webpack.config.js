@@ -8,7 +8,8 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const { TypedCssModulesPlugin } = require('typed-css-modules-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FontminPlugin = require('fontmin-webpack');
-const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack');
 
 
 module.exports = {
@@ -116,11 +117,6 @@ module.exports = {
             template: path.resolve(__dirname, 'src/index.html'),
             templateParameters: {
                 title: packageJson.productName,
-                indexCssTag: (
-                    process.env.NODE_ENV === 'production' ?
-                    `<link href="./style.css" rel="stylesheet">`
-                    : ''
-                ),
                 url: packageJson.url,
                 description: packageJson.description,
                 author: packageJson.author
@@ -139,13 +135,30 @@ module.exports = {
                     to: 'images/[name].[ext]'
                 }
             ],
-        )
+        ),
+        new webpack.ContextReplacementPlugin(/moment[\\\/]locale$/, /^\.\/(fr|en-gb)$/)
     ],
     devServer: {
         historyApiFallback: true,
     },
     output: {
-        filename: '[name].js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'docs')
+    },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                react: {
+                    test: /[\\/]node_modules[\\/]((react).*)[\\/]/,
+                    name: 'vendor-1',
+                    chunks: 'all'
+                },
+                moment: {
+                    test: /[\\/]node_modules[\\/](hammerjs|moment|overlayscrollbars)[\\/]/,
+                    name: 'vendor-2',
+                    chunks: 'all'
+                }
+            }
+        }
     }
 };
