@@ -1,5 +1,4 @@
 const path = require('path');
-const fs = require('fs');
 const packageJson = require('./package.json');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
@@ -8,6 +7,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const { TypedCssModulesPlugin } = require('typed-css-modules-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FontminPlugin = require('fontmin-webpack');
+const CopyPlugin = require("copy-webpack-plugin");
 
 
 module.exports = {
@@ -67,18 +68,30 @@ module.exports = {
                 ]
             },
             {
-                test: /\.woff$/,
+                test: /\.ttf$/,
                 loader: 'file-loader',
                 options: {
                     outputPath: 'fonts/'
                 }
             },
             {
-                test: /\.(gif|png|jpg|jpeg|webp)$/,
-                loader: 'file-loader',
-                options: {
-                    outputPath: 'images'
-                }
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            outputPath: 'images/'
+                        }
+                    },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            webp: {
+                                quality: 75
+                            }
+                        },
+                    },
+                ],
             }
         ],
     },
@@ -108,12 +121,25 @@ module.exports = {
                     `<link href="./style.css" rel="stylesheet">`
                     : ''
                 ),
+                url: packageJson.url,
+                description: packageJson.description,
+                author: packageJson.author
             },
         }),
         new BundleAnalyzerPlugin({
             analyzerMode: 'static',
             openAnalyzer: false,
         }),
+        new FontminPlugin({
+            glyphs: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.?,!éè&à)("_-ç=-+:/\\²%£$€#{[}];@<>|`°*ù~©™\''.split(''),
+        }),
+        new CopyPlugin([
+                {
+                    from: 'src/assets/images/meta/*',
+                    to: 'images/[name].[ext]'
+                }
+            ],
+        )
     ],
     devServer: {
         historyApiFallback: true,
