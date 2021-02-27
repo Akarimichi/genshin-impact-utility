@@ -72,7 +72,7 @@ module.exports = {
                 test: /\.ttf$/,
                 loader: 'file-loader',
                 options: {
-                    outputPath: 'fonts'
+                    outputPath: './fonts/'
                 }
             },
             {
