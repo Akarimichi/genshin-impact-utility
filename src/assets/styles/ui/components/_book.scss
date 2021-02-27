@@ -37,6 +37,9 @@
             z-index: 1;
             right: -55px;
             top: 60px;
+            img {
+                width: 33px;
+            }
         }
 
         .deco-2 {
@@ -51,6 +54,10 @@
             z-index: 1;
             bottom: 20px;
             left: -22px;
+
+            img {
+                width: 22px;
+            }
         }
 
         .deco-3-2 {
@@ -61,6 +68,7 @@
 
             img{
                 transform: scaleX(-1);
+                width: 22px;
             }
 
         }
@@ -72,6 +80,7 @@
             left: 55px;
 
             img{
+                width: 22px;
                 transform: rotate(90deg);
             }
 
@@ -82,6 +91,10 @@
             z-index: 1;
             bottom: -95px;
             right: 70px;
+
+            img {
+                width: 94px;
+            }
         }
 
         .deco-5 {
@@ -89,6 +102,10 @@
             z-index: 1;
             bottom: 30px;
             right: -34px;
+
+            img {
+                width: 34px;
+            }
         }
 
         .deco-6 {
@@ -96,11 +113,18 @@
             z-index: 1;
             bottom: -19px;
             right: 25px;
+            img {
+                width: 86px;
+            }
         }
 
         .corner {
             position: absolute;
             z-index: 1;
+
+            img{
+                width: 43px;
+            }
 
 
             &.corner-top-left{
@@ -186,7 +210,7 @@
                     display: flex;
 
                     img {
-                        width: 100%;
+                        width: 100px;
                     }
 
                 }
@@ -238,7 +262,7 @@
                     }
 
                     img {
-                        width: 100%;
+                        width: 85px;
                     }
                 }
 
