@@ -139,10 +139,14 @@
 
         .book__content-scroll {
 
-            max-height: calc(100vh - 150px);
+            max-height: calc(100vh - 250px);
             overflow: auto;
             width: 100%;
             position: relative;
+
+            & * {
+                touch-action: pan-y !important;
+            }
 
             .book__row {
 
@@ -162,12 +166,12 @@
                     margin-top: 20px;
                 }
 
-                 &.active{
+                &.active{
                     margin-left: 15px;
                     margin-right: 15px;
                 }
 
-                &.focus{
+                &:active{
                     border-color: var(--color-border-orange-light);
                     box-shadow: var(--color-shadow-orange-light);
                     -webkit-box-shadow: var(--color-shadow-orange-light);
@@ -216,7 +220,7 @@
                     margin-left: auto;
                     padding: 12px 18px;
                     position: relative;
-                    width: 100px;
+                    width: 85px;
 
                     div {
                         position: relative;
@@ -229,6 +233,7 @@
                             text-align: center;
                             left: 0;
                             right: 0;
+                            font-size: 0.9rem;
                         }
                     }
 
@@ -243,7 +248,7 @@
                     justify-content: center;
                     text-align: center;
                     background-color: var(--color-bg-white-dark);
-                    width: 160px;
+                    width: 130px;
                     font-size: 1.1rem;
                     color: var(--color-txt-brown-light);
                 }

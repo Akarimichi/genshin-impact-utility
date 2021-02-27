@@ -26,5 +26,15 @@ export interface BookProps {
 export interface BookRowProps {
     item: Achievement;
     indexAchv: string;
+    setRowActive: (index: number | null) => void;
+    rowActive: number | null;
 }
 
+export interface AchievementCategoryProps {
+    achievementTab: AchievementTitle[];
+}
+
+export interface AchievementCategoryTitleProps {
+    index: number;
+    achievementTitle: AchievementTitle;
+}

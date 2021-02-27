@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import { Achievement, BookProps, BookRowProps } from '../../typings/book';
+import React, { useState, useEffect, useRef } from 'react';
+import { Achievement, BookProps, BookRowProps } from '../../typings/achievement';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
-import { getLocalStorage, setLocalStorage } from '../../utils/utils';
+import { getLocalStorage, setLocalStorage, useClickOutside } from '../../utils/utils';
+import Hammer from 'hammerjs';
 
 // Check hammerjs to simulate touch event on mouse
 
@@ -20,11 +21,13 @@ import ImgPrimogem from '../../assets/images/achievements/primogem.png';
 
 const BookRow = (props: BookRowProps) => {
 
+    // Check in local storage if the id is in array
     const localStorageAchv: number[] = getLocalStorage(props.indexAchv, 'json');
     const [achievementDone, setAchievementAsDone] = useState<boolean>(
         (localStorageAchv.includes(props.item.id) ? true : false)
     );
 
+    // Hnadle click achivevement done
     const handleClickAchievementDone = (item: Achievement) => {
 
         let localStorageAchv: number[] = getLocalStorage(props.indexAchv, 'json');
@@ -36,12 +39,18 @@ const BookRow = (props: BookRowProps) => {
         }
 
         setLocalStorage(props.indexAchv, localStorageAchv, 'json');
-
         setAchievementAsDone(!achievementDone);
     };
 
+    // State row click outside
+    const { ref } = useClickOutside(() => {
+        props.setRowActive(null);
+    });
+
+
+
     return (
-        <div className="book__row">
+        <div ref={ref} className={`book__row ${(props.rowActive === props.item.id  ? 'active' : '')}`} onMouseDown={() => props.setRowActive(props.item.id)}>
 
             <div className="book__row-picto">
                 <img
@@ -71,6 +80,31 @@ const BookRow = (props: BookRowProps) => {
 };
 
 const Book = (props: BookProps) => {
+
+    // State row active
+    const [rowActive, setRowActive] = useState<number | null>(null);
+    const refBookContentScroll = useRef<OverlayScrollbarsComponent | null>(null);
+    const [mounted, setMounted] = useState<boolean>(false);
+
+    useEffect(() => {
+
+        if (!mounted && refBookContentScroll.current) {
+
+            const scrollDOM: HTMLElement = refBookContentScroll.current.osTarget().querySelector('.os-viewport');
+            const scrollHammer = new Hammer(scrollDOM);
+
+            scrollHammer.on('panup pandown', (event) => {
+                if (event.type === 'pandown') {
+                    scrollDOM.scrollTop = scrollDOM.scrollTop - 8;
+                } else {
+                    scrollDOM.scrollTop = scrollDOM.scrollTop + 8;
+                }
+            });
+            setMounted(true);
+        }
+
+    });
+
     return (
         <div className="book">
             <div className="book__content">
@@ -89,6 +123,7 @@ const Book = (props: BookProps) => {
                 <span className="deco-6"><img src={ImgBookDeco6} /></span>
 
                 <OverlayScrollbarsComponent
+                    ref={refBookContentScroll}
                     className="book__content-scroll os-theme-gi-scroll-white"
                 >
                     {props.achievementTitle.achievements.map((item) => (
@@ -96,6 +131,8 @@ const Book = (props: BookProps) => {
                             key={item.id}
                             item={item}
                             indexAchv={props.achievementTitle.index}
+                            rowActive={rowActive}
+                            setRowActive={setRowActive}
                         />
                     ))}
                 </OverlayScrollbarsComponent>

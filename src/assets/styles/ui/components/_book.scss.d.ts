@@ -21,7 +21,6 @@ declare const styles: {
   readonly "deco-4": string;
   readonly "deco-5": string;
   readonly "deco-6": string;
-  readonly "focus": string;
 };
 export = styles;
 
