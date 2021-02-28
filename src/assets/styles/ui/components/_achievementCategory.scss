@@ -1,5 +1,7 @@
 .achievement__category {
+    max-width: calc(100% - 61.95%);
     width: 100%;
+    margin-right: 35px;
     margin: 0 25px;
 
     .achievement__category__title{

@@ -10,6 +10,7 @@
     margin-right: 35px;
     margin-left: auto;
     margin-bottom: 70px;
+    width: 100%;
 
     &:after {
         content: '';
@@ -172,12 +173,25 @@
 
         }
 
+        .book__content-scroll::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+            background-color: #D8D2CD;
+        }
+
+        .book__content-scroll::-webkit-scrollbar-thumb {
+            background: #fff;
+        }
+
         .book__content-scroll {
 
             max-height: calc(100vh - 150px);
             overflow: auto;
             width: 100%;
             position: relative;
+
+            scrollbar-color: #fff #D8D2CD;
+            scrollbar-width: thin;
 
             & * {
                 touch-action: pan-y !important;

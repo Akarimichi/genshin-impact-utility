@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Achievement, BookProps, BookRowProps } from '../../typings/achievement';
-import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 import { getLocalStorage, setLocalStorage, useClickOutside } from '../../utils/utils';
 import Hammer from 'hammerjs';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 // Check hammerjs to simulate touch event on mouse
 
@@ -83,14 +83,29 @@ const Book = (props: BookProps) => {
 
     // State row active
     const [rowActive, setRowActive] = useState<number | null>(null);
-    const refBookContentScroll = useRef<OverlayScrollbarsComponent | null>(null);
+    const refBookContentScroll = useRef<HTMLDivElement | null>(null);
     const [mounted, setMounted] = useState<boolean>(false);
+
+    // State list achievements
+    const [listAchievements, setListAchievements] = useState<Achievement[]>(
+        props.achievementTitle.achievements.slice(0, 20)
+    );
+
+
+    const fetchListAchievements = () => {
+        setListAchievements(
+            listAchievements.concat(
+                props.achievementTitle.achievements.slice(
+                    listAchievements.length, listAchievements.length + 20
+                )
+            )
+        );
+    };
 
     useEffect(() => {
 
         if (!mounted && refBookContentScroll.current) {
-
-            const scrollDOM: HTMLElement = refBookContentScroll.current.osTarget().querySelector('.os-viewport');
+            const scrollDOM: HTMLElement = refBookContentScroll.current;
             const scrollHammer = new Hammer(scrollDOM);
 
             scrollHammer.on('panup pandown', (event) => {
@@ -122,20 +137,30 @@ const Book = (props: BookProps) => {
                 <span className="deco-5"><img src={ImgBookDeco5} /></span>
                 <span className="deco-6"><img src={ImgBookDeco6} /></span>
 
-                <OverlayScrollbarsComponent
+                <div
+                    id="bookContentScrollable"
+                    className="book__content-scroll"
                     ref={refBookContentScroll}
-                    className="book__content-scroll os-theme-gi-scroll-white"
                 >
-                    {props.achievementTitle.achievements.map((item) => (
-                        <BookRow
-                            key={item.id}
-                            item={item}
-                            indexAchv={props.achievementTitle.index}
-                            rowActive={rowActive}
-                            setRowActive={setRowActive}
-                        />
-                    ))}
-                </OverlayScrollbarsComponent>
+                    <InfiniteScroll
+                        dataLength={listAchievements.length}
+                        next={fetchListAchievements}
+                        hasMore={true}
+                        loader={null}
+                        endMessage={null}
+                        scrollableTarget="bookContentScrollable"
+                    >
+                        {listAchievements.map((item) => (
+                            <BookRow
+                                key={item.id}
+                                item={item}
+                                indexAchv={props.achievementTitle.index}
+                                rowActive={rowActive}
+                                setRowActive={setRowActive}
+                            />
+                        ))}
+                    </InfiniteScroll>
+                </div>
 
             </div>
         </div>

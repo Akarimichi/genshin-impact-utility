@@ -154,7 +154,7 @@ module.exports = {
                     chunks: 'all'
                 },
                 moment: {
-                    test: /[\\/]node_modules[\\/](hammerjs|moment|overlayscrollbars)[\\/]/,
+                    test: /[\\/]node_modules[\\/](hammerjs|moment)[\\/]/,
                     name: 'vendor-2',
                     chunks: 'all'
                 }
