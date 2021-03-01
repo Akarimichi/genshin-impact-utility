@@ -3,8 +3,9 @@ import { Achievement, BookProps, BookRowProps } from '../../typings/achievement'
 import { getLocalStorage, setLocalStorage, useClickOutside } from '../../utils/utils';
 import Hammer from 'hammerjs';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import { LinkType } from '../../typings/routes';
+import { useParams } from 'react-router-dom';
 
-// Check hammerjs to simulate touch event on mouse
 
 /* Import images */
 
@@ -22,7 +23,7 @@ import ImgPrimogem from '../../assets/images/achievements/primogem.png';
 const BookRow = (props: BookRowProps) => {
 
     // Check in local storage if the id is in array
-    const localStorageAchv: number[] = getLocalStorage(props.indexAchv, 'json');
+    const localStorageAchv: string[] = getLocalStorage(props.indexAchv, 'json');
     const [achievementDone, setAchievementAsDone] = useState<boolean>(
         (localStorageAchv.includes(props.item.id) ? true : false)
     );
@@ -30,7 +31,7 @@ const BookRow = (props: BookRowProps) => {
     // Hnadle click achivevement done
     const handleClickAchievementDone = (item: Achievement) => {
 
-        let localStorageAchv: number[] = getLocalStorage(props.indexAchv, 'json');
+        let localStorageAchv: string[] = getLocalStorage(props.indexAchv, 'json');
 
         if (achievementDone) {
             localStorageAchv = localStorageAchv.filter((idAchv) => (idAchv !== props.item.id));
@@ -47,6 +48,9 @@ const BookRow = (props: BookRowProps) => {
         props.setRowActive(null);
     });
 
+    // Get url parameters
+    const { locale }: LinkType = useParams();
+
 
 
     return (
@@ -60,8 +64,8 @@ const BookRow = (props: BookRowProps) => {
             </div>
 
             <div className="book__row-description">
-                <span>{props.item.name.en}</span>
-                <p>{props.item.description.en}</p>
+                <span>{props.item.name[ locale ]}</span>
+                <p>{props.item.description[ locale ]}</p>
             </div>
 
             <div className="book__row-reward">
@@ -82,7 +86,7 @@ const BookRow = (props: BookRowProps) => {
 const Book = (props: BookProps) => {
 
     // State row active
-    const [rowActive, setRowActive] = useState<number | null>(null);
+    const [rowActive, setRowActive] = useState<string | null>(null);
     const refBookContentScroll = useRef<HTMLDivElement | null>(null);
     const [mounted, setMounted] = useState<boolean>(false);
 

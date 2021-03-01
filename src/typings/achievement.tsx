@@ -1,15 +1,13 @@
 import { Languages } from './global';
 
 export interface Achievement {
-    id: number;
+    id: string;
     order: number;
     name: Languages;
     description: Languages;
     reward: string | number;
     progress: string;
-    help: Languages;
     version: string;
-    icon: string;
 }
 
 export interface AchievementTitle {
@@ -26,8 +24,8 @@ export interface BookProps {
 export interface BookRowProps {
     item: Achievement;
     indexAchv: string;
-    setRowActive: (index: number | null) => void;
-    rowActive: number | null;
+    setRowActive: (index: string | null) => void;
+    rowActive: string | null;
 }
 
 export interface AchievementCategoryProps {

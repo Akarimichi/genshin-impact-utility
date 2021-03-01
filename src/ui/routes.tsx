@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router';
+import { Route, Switch, Redirect } from 'react-router';
 import Home from './home';
 import Achievements from './achievements';
 import NoMatch from './nomatch';
@@ -7,9 +7,9 @@ import NoMatch from './nomatch';
 const Routes = (
     <>
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/achievements" component={Achievements} />
-            <Route component={NoMatch} />
+            <Route exact path="/:locale(en|fr)/" component={Home} />
+            <Route path="/:locale(en|fr)/achievements" component={Achievements} />
+            <Route render={({ location }) => location.pathname === '/' ? <Redirect to="/en" /> : <Route component={NoMatch} />} />
         </Switch>
     </>
 );

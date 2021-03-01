@@ -2,2529 +2,1884 @@
     {
         "name": {
             "en": "Wonders of the World",
-            "fr":  ""
+            "fr": "Merveilles du monde"
         },
         "index": "GI_WOFTW_Achv_done",
         "icon": "",
-        "achievements" : [
+        "achievements": [
             {
-                "id": 1,
+                "id": "wjrq98sdj0klqzdba7",
                 "order": 1,
                 "name": {
                     "en": "Overlooking View",
-                    "fr": ""
+                    "fr": "Splendide vue"
                 },
                 "description": {
                     "en": "Reach the very top of Qingyun Peak.",
-                    "fr": ""
+                    "fr": "Atteignez le sommet du Pic Qingyun."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 2,
+                "id": "wjrq98sdj0klqzdbfp",
                 "order": 2,
                 "name": {
                     "en": "The Remains of the Gale",
-                    "fr": ""
+                    "fr": "Fin de bourrasque"
                 },
                 "description": {
                     "en": "Reach the top of the tower in Stormterror's Lair.",
-                    "fr": ""
+                    "fr": "Atteignez la tour de l'Antre de Stormterror."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 3,
+                "id": "wjrq98sdj0klqzdbk6",
                 "order": 3,
                 "name": {
                     "en": "\"Seeds of Stories, Brought By the Wind...\"",
-                    "fr": ""
+                    "fr": "« Les graines d'histoires apportées par le vent... »"
                 },
                 "description": {
                     "en": "Reach the nameless island northeast of Mondstadt.",
-                    "fr": ""
+                    "fr": "Atteignez l'île sans nom au nord-est de Mondstadt."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 4,
+                "id": "wjrq98sdj0klqzdbp0",
                 "order": 4,
                 "name": {
                     "en": "Unswerving",
-                    "fr": ""
+                    "fr": "Inébranlable"
                 },
                 "description": {
                     "en": "Open the chest in the middle of the heart-shaped rock formation.",
-                    "fr": ""
+                    "fr": "Ouvrez 1 coffre qui se trouve au milieu d'une formation rocheuse en forme de cœur."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 5,
+                "id": "wjrq98sdj0klqzdbtn",
                 "order": 5,
                 "name": {
                     "en": "Initiating Warp Drive!",
-                    "fr": ""
+                    "fr": "La traversée du temps"
                 },
                 "description": {
                     "en": "Pass through the time tunnel in the skies of Cape Oath.",
-                    "fr": ""
+                    "fr": "Traversez le tunnel du temps dans les cieux du Cap de la Promesse."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 6,
+                "id": "wjrq98sdj0klqzdbyj",
                 "order": 6,
                 "name": {
                     "en": "Beloved of the Anemo Archon",
-                    "fr": ""
+                    "fr": "Chouchou de l'Archon Anémo"
                 },
                 "description": {
                     "en": "Take a seat in the hands of the God Statue in Mondstadt.",
-                    "fr": ""
+                    "fr": "Asseyez-vous sur les mains de la statue de l'Archon Anémo à Mondstadt."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 7,
+                "id": "wjrq98sdj0klqzdc39",
                 "order": 7,
                 "name": {
                     "en": "Nothing to Lose But Time",
-                    "fr": ""
+                    "fr": "Vous ne perdez rien à part votre temps !"
                 },
                 "description": {
                     "en": "Unlock the secrets of two sundials.",
-                    "fr": ""
+                    "fr": "Résolvez l'énigme des deux cadrans solaires."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 8,
+                "id": "wjrq98sdj0klqzdca6",
                 "order": 8,
                 "name": {
                     "en": "Interview with a Bygone God",
-                    "fr": ""
+                    "fr": "Entretien avec une ancienne divinité"
                 },
                 "description": {
                     "en": "Hear the story of a bygone deity.",
-                    "fr": ""
+                    "fr": "Renseignez-vous sur l'histoire d'une ancienne divinité."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 9,
+                "id": "wjrq98sdj0klqzdcfm",
                 "order": 9,
                 "name": {
                     "en": "Crouching Dragon, Hidden Chi",
-                    "fr": ""
+                    "fr": "Chi et dragon"
                 },
                 "description": {
                     "en": "Learn about the tale of the Chi.",
-                    "fr": ""
+                    "fr": "Renseignez-vous sur l'histoire de Chi."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 10,
+                "id": "wjrq98sdj0klqzdcl5",
                 "order": 10,
                 "name": {
                     "en": "Scourge of the Battlefield",
-                    "fr": ""
+                    "fr": "Fléau de la guerre"
                 },
                 "description": {
                     "en": "Fetch a good price for a treasure found in an ancient ruin...",
-                    "fr": ""
+                    "fr": "Vendez un trésor trouvé dans des ruines anciennes pour un bon prix."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 11,
+                "id": "wjrq98sdj0klqzdcqb",
                 "order": 11,
                 "name": {
                     "en": "The Best Sword in the Cemetery",
-                    "fr": ""
+                    "fr": "La meilleure de toutes les épées"
                 },
                 "description": {
                     "en": "Unlock the Tri-Seal of the Sword Cemetery.",
-                    "fr": ""
+                    "fr": "Désactivez les trois barrières qui protègent le Cimetière d'épées."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 12,
+                "id": "wjrq98sdj0klqzdcv8",
                 "order": 12,
                 "name": {
                     "en": "Shadow Over Luhua Pool",
-                    "fr": ""
+                    "fr": "L'ombre du Lac Luhua"
                 },
                 "description": {
                     "en": "Help Vermeer get the scenery of his dreams.",
-                    "fr": ""
+                    "fr": "Aidez Vermeer à peindre le paysage de ses rêves."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 13,
+                "id": "wjrq98sdj0klqzdczx",
                 "order": 13,
                 "name": {
                     "en": "Ready Player Zero",
-                    "fr": ""
+                    "fr": "Joueur 0"
                 },
                 "description": {
                     "en": "Play a simple game with Childish Jiang.",
-                    "fr": ""
+                    "fr": "Jouez avec Jiang le puéril."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 14,
+                "id": "wjrq98sdj0klqzdd5d",
                 "order": 14,
                 "name": {
                     "en": "Trees Should Blend Their Roots and Shade, For That Is Where the Home is Made",
-                    "fr": ""
+                    "fr": "La petite maison dans les bois"
                 },
                 "description": {
                     "en": "Witness the story of Yuan Hong's household.",
-                    "fr": ""
+                    "fr": "Soyez témoin de l'histoire de la famille de Yuan Hong."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 15,
+                "id": "wjrq98sdj0klqzddc2",
                 "order": 15,
                 "name": {
                     "en": "Hidden Palace of Guizang Formula",
-                    "fr": ""
+                    "fr": "Palais secret de Guizang"
                 },
                 "description": {
                     "en": "Follow in the footsteps of immortals, and unlock the Domain's door.",
-                    "fr": ""
+                    "fr": "Suivez les traces des immortels qui vous emmènent devant la porte du trésor."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 16,
+                "id": "wjrq98sdj0klqzddgm",
                 "order": 16,
                 "name": {
                     "en": "Cecilia Garden",
-                    "fr": ""
+                    "fr": "Pépinière de cécilias"
                 },
                 "description": {
                     "en": "Return the Seelie to their rightful places and unlock the entrance to a Domain in Wolvendom.",
-                    "fr": ""
+                    "fr": "Aidez les Fées à regagner leurs demeures et débloquez l'entrée d'un donjon sur le Territoire des Loups."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 17,
+                "id": "wjrq98sdj0klqzddks",
                 "order": 17,
                 "name": {
                     "en": "Hidden Palace of Zhou Formula",
-                    "fr": ""
+                    "fr": "Palais secret de la Formule Zhou"
                 },
                 "description": {
                     "en": "Follow the Seelie and light the torches to unlock the entrance to a domain in Wuwang Hill.",
-                    "fr": ""
+                    "fr": "Suivez la Fée et allumez toutes les torches pour débloquer l'entrée d'un donjon sur la Pente Wuwang."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 18,
+                "id": "wjrq98sdj0klqzddp6",
                 "order": 18,
                 "name": {
                     "en": "\"If you put your heart into it...\"",
-                    "fr": ""
+                    "fr": "Avec un peu d'amour..."
                 },
                 "description": {
                     "en": "Cook 1 suspicious-tasting dish.",
-                    "fr": ""
+                    "fr": "Cuisinez un plat suspect."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 19,
+                "id": "wjrq98sdj0klqzddt9",
                 "order": 19,
                 "name": {
                     "en": "\"...anyone can be a gourmet.\"",
-                    "fr": ""
+                    "fr": "Tout le monde peut cuisiner..."
                 },
                 "description": {
                     "en": "Cook 10 suspicious-tasting dishes.",
-                    "fr": ""
+                    "fr": "Cuisinez 10 plats suspects."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 10",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 20,
+                "id": "wjrq98sdj0klqzddxn",
                 "order": 20,
                 "name": {
                     "en": "Boared to Death",
-                    "fr": ""
+                    "fr": "Attention, sanglier !"
                 },
                 "description": {
                     "en": "Be defeated by a wild boar.",
-                    "fr": ""
+                    "fr": "Faites-vous vaincre par un sanglier."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 21,
+                "id": "wjrq98sdj0klqzde1w",
                 "order": 21,
                 "name": {
                     "en": "Golden Gliding License",
-                    "fr": ""
+                    "fr": "Super permis de planer"
                 },
                 "description": {
                     "en": "Glide a long, long distance in one go.",
-                    "fr": ""
+                    "fr": "Planez sur une longue distance sans vous arrêter."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 500",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 22,
+                "id": "wjrq98sdj0klqzde69",
                 "order": 22,
                 "name": {
                     "en": "It's the Same As Having Wings",
-                    "fr": ""
+                    "fr": "Youpi, je vole !"
                 },
                 "description": {
                     "en": "Glide continuously for over 80s.",
-                    "fr": ""
+                    "fr": "Planez sans vous arrêter pendant 80 s."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 80000",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 23,
+                "id": "wjrq98sdj0klqzdeae",
                 "order": 23,
                 "name": {
                     "en": "Quick As Lightning",
-                    "fr": ""
+                    "fr": "Rapide comme l'éclair"
                 },
                 "description": {
                     "en": "Sprint continuously (or use an alternative sprint) for over 15s.",
-                    "fr": ""
+                    "fr": "Sprintez sans vous arrêter (ou utilisez une autre forme de sprint) pendant 15 s."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 15000",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 24,
+                "id": "wjrq98sdj0klqzdees",
                 "order": 24,
                 "name": {
                     "en": "Friends the World Over",
-                    "fr": ""
+                    "fr": "L'ami de tout le monde"
                 },
                 "description": {
                     "en": "Meet all sorts of people during your adventure.",
-                    "fr": ""
+                    "fr": "Rencontrez des personnes pendant votre aventure."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 10000",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 25,
+                "id": "wjrq98sdj0klqzdeiw",
                 "order": 25,
                 "name": {
                     "en": "Megastar in Mondstadt",
-                    "fr": ""
+                    "fr": "Superstar à Mondstadt"
                 },
                 "description": {
                     "en": "Reach Reputation Lv. 8 in Mondstadt.",
-                    "fr": ""
+                    "fr": "Atteignez une réputation de Niv.8 à Mondstadt."
                 },
                 "reward": "20",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 26,
+                "id": "wjrq98sdj0klqzdeol",
                 "order": 26,
                 "name": {
                     "en": "Legend in Liyue",
-                    "fr": ""
+                    "fr": "Légende à Liyue"
                 },
                 "description": {
                     "en": "Reach Reputation Lv. 8 in Liyue.",
-                    "fr": ""
+                    "fr": "Atteignez une réputation de Niv.8 à Liyue."
                 },
                 "reward": "20",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 27,
+                "id": "wjrq98sdj0klqzdetx",
                 "order": 27,
                 "name": {
                     "en": "QUEST CLEAR",
-                    "fr": ""
+                    "fr": "TERMINÉ"
                 },
                 "description": {
                     "en": "Complete 10 Bounties.",
-                    "fr": ""
+                    "fr": "Terminez 10 Primes."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 10",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 28,
+                "id": "wjrq98sdj0klqzdez8",
                 "order": 28,
                 "name": {
                     "en": "QUEST CLEAR",
-                    "fr": ""
+                    "fr": "TERMINÉ"
                 },
                 "description": {
                     "en": "Complete 20 Bounties.",
-                    "fr": ""
+                    "fr": "Terminez 20 Primes."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 20",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 29,
+                "id": "wjrq98sdj0klqzdf45",
                 "order": 29,
                 "name": {
                     "en": "QUEST CLEAR",
-                    "fr": ""
+                    "fr": "TERMINÉ"
                 },
                 "description": {
                     "en": "Complete 30 Bounties.",
-                    "fr": ""
+                    "fr": "Terminez 30 Primes."
                 },
                 "reward": "20",
-                "icon": "",
                 "progress": "0 / 30",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 30,
+                "id": "wjrq98sdj0klqzdf8o",
                 "order": 30,
                 "name": {
                     "en": "Hero-in-Training",
-                    "fr": ""
+                    "fr": "Apprenti héros"
                 },
                 "description": {
                     "en": "Complete 10 Requests.",
-                    "fr": ""
+                    "fr": "Terminez 10 Requêtes."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 10",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 31,
+                "id": "wjrq98sdj0klqzdfdh",
                 "order": 31,
                 "name": {
                     "en": "Hero-in-Training",
-                    "fr": ""
+                    "fr": "Apprenti héros"
                 },
                 "description": {
                     "en": "Complete 20 Requests.",
-                    "fr": ""
+                    "fr": "Terminez 20 Requêtes."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 20",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 32,
+                "id": "wjrq98sdj0klqzdfi6",
                 "order": 32,
                 "name": {
                     "en": "Hero-in-Training",
-                    "fr": ""
+                    "fr": "Apprenti héros"
                 },
                 "description": {
                     "en": "Complete 30 Requests.",
-                    "fr": ""
+                    "fr": "Terminez 30 Requêtes."
                 },
                 "reward": "20",
-                "icon": "",
                 "progress": "0 / 30",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 33,
+                "id": "wjrq98sdj0klqzdfpw",
                 "order": 33,
                 "name": {
                     "en": "QUEST FAILED",
-                    "fr": ""
+                    "fr": "Prime perdue"
                 },
                 "description": {
                     "en": "Lost track of a Bounty target.",
-                    "fr": ""
+                    "fr": "Perdez la cible d'une Prime."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 34,
+                "id": "wjrq98sdj0klqzdfw4",
                 "order": 34,
                 "name": {
                     "en": "The Bleak Midwinter",
-                    "fr": ""
+                    "fr": "Un hiver difficile"
                 },
                 "description": {
                     "en": "Succumb to Sheer Cold...",
-                    "fr": ""
+                    "fr": "Succombez au Grand Froid..."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 35,
+                "id": "wjrq98sdj0klqzdg1y",
                 "order": 35,
                 "name": {
                     "en": "Priest, Princess, and Scribe",
-                    "fr": ""
+                    "fr": "Prêtre, princesse et scribe"
                 },
                 "description": {
                     "en": "Claim the treasure of the Entombed City.",
-                    "fr": ""
+                    "fr": "Récupérez le trésor de la Cité enfouie."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 36,
+                "id": "wjrq98sdj0klqzdg7f",
                 "order": 36,
                 "name": {
                     "en": "Prodigal Son's Return",
-                    "fr": ""
+                    "fr": "Le retour du fils prodigue"
                 },
                 "description": {
                     "en": "Follow the path of one of the members of the long-lost investigation team to where they embarked on their journey home.",
-                    "fr": ""
+                    "fr": "Suivez le chemin pris par le membre d'une ancienne expédition pour arriver à l'endroit d'où il rejoignit son pays natal."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 37,
+                "id": "wjrq98sdj0klqzdgcl",
                 "order": 37,
                 "name": {
                     "en": "Snow-Stored History",
-                    "fr": ""
+                    "fr": "Mille ans dans la glace"
                 },
                 "description": {
                     "en": "Discover the fate of a long-lost investigation team that once explored Dragonspine.",
-                    "fr": ""
+                    "fr": "Découvrez ce qu'il advint d'une ancienne expédition scientifique."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 38,
+                "id": "wjrq98sdj0klqzdggp",
                 "order": 38,
                 "name": {
                     "en": "Glacial Steel",
-                    "fr": ""
+                    "fr": "Froides sapèques"
                 },
                 "description": {
                     "en": "Obtain an ancient weapon made of Starsilver.",
-                    "fr": ""
+                    "fr": "Obtenez l'arme antique forgée en argétoile."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 39,
+                "id": "wjrq98sdj0klqzdgl3",
                 "order": 39,
                 "name": {
                     "en": "Futile Endeavor",
-                    "fr": ""
+                    "fr": "Futile expédition"
                 },
                 "description": {
                     "en": "Discover the remains of many ruin machines.",
-                    "fr": ""
+                    "fr": "Découvrez les restes de beaucoup de mécanismes des ruines."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 9",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 40,
+                "id": "wjrq98sdj0klqzdgp6",
                 "order": 40,
                 "name": {
                     "en": "Untellable Tale",
-                    "fr": ""
+                    "fr": "L'histoire jamais contée"
                 },
                 "description": {
                     "en": "Make an unexpected friend in an unexpected location.",
-                    "fr": ""
+                    "fr": "Faites-vous une nouvelle et surprenante connaissance là où vous ne vous y attendez pas."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 41,
+                "id": "wjrq98sdj0klqzdgtj",
                 "order": 41,
                 "name": {
                     "en": "Towering Achievement",
-                    "fr": ""
+                    "fr": "Impressionnant exploit"
                 },
                 "description": {
                     "en": "Reach the summit of Dragonspine.",
-                    "fr": ""
+                    "fr": "Atteignez le pic des Monts Dosdragon."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 42,
+                "id": "wjrq98sdj0klqzdgxo",
                 "order": 42,
                 "name": {
                     "en": "Winter Wonderland",
-                    "fr": ""
+                    "fr": "Conte d'hiver"
                 },
                 "description": {
                     "en": "Discover a Cryo Crystalfly beneath a snow pile.",
-                    "fr": ""
+                    "fr": "Découvrez un papillon cristallin sous une congère."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 43,
+                "id": "wjrq98sdj0klqzdh22",
                 "order": 43,
                 "name": {
                     "en": "The Hunter Becomes the Hunted",
-                    "fr": ""
+                    "fr": "Le chasseur devient la proie"
                 },
                 "description": {
                     "en": "Be defeated by The Great Snowboar King.",
-                    "fr": ""
+                    "fr": "Faites-vous vaincre par le Roi des sangliers."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 44,
+                "id": "wjrq98sdj0klqzdh66",
                 "order": 44,
                 "name": {
                     "en": "Chill Out!",
-                    "fr": ""
+                    "fr": "On se calme !"
                 },
                 "description": {
                     "en": "Defeat The Great Snowboar King while the latter is in berserker mode.",
-                    "fr": ""
+                    "fr": "Vainquez le Roi des sangliers quand il est enragé."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 45,
+                "id": "wjrq98sdj0klqzdhaj",
                 "order": 45,
                 "name": {
                     "en": "Glutton for Goulash",
-                    "fr": ""
+                    "fr": "Soif de goulasch"
                 },
                 "description": {
                     "en": "Learn to make Goulash.",
-                    "fr": ""
+                    "fr": "Apprenez à préparer du goulasch."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 46,
+                "id": "wjrq98sdj0klqzdhem",
                 "order": 46,
                 "name": {
                     "en": "Wrath of the Gods",
-                    "fr": ""
+                    "fr": "Ire des dieux"
                 },
                 "description": {
                     "en": "Get struck by lightning.",
-                    "fr": ""
+                    "fr": "Faites-vous frapper par la foudre."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 47,
+                "id": "wjrq98sdj0klqzdhiz",
                 "order": 47,
                 "name": {
                     "en": "Sky High",
-                    "fr": ""
+                    "fr": "Plus près du ciel..."
                 },
                 "description": {
                     "en": "Climb the Skyfrost Nail after it has been restored.",
-                    "fr": ""
+                    "fr": "Escaladez le Mandrin céleste une fois restauré."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 48,
+                "id": "wjrq98sdj0klqzdhn3",
                 "order": 48,
                 "name": {
                     "en": "Transmutation Nuclide",
-                    "fr": ""
+                    "fr": "Nucléo-transmutation"
                 },
                 "description": {
                     "en": "Use the Parametric Transformer to complete one material transmutation.",
-                    "fr": ""
+                    "fr": "Utilisez le Transformateur paramétrique pour terminer une transmutation de matériau."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 49,
+                "id": "wjrq98sdj0klqzdhrk",
                 "order": 49,
                 "name": {
                     "en": "Juggernaut",
-                    "fr": ""
+                    "fr": "Invincible"
                 },
                 "description": {
                     "en": "Crush all of a Geo Hypostasis' Rock Pillars of Revival before it can be revived.",
-                    "fr": ""
+                    "fr": "Détruisez tous les piliers rocheux d'une Hypostase Géo avant qu'elle ne se régénère."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 50,
+                "id": "wjrq98sdj0klqzdhvs",
                 "order": 50,
                 "name": {
                     "en": "The PRISM Program",
-                    "fr": ""
+                    "fr": "Destruction des prismes"
                 },
                 "description": {
                     "en": "Break all of an Electro Hypostasis' Revival Prisms before it can be revived.",
-                    "fr": ""
+                    "fr": "Détruisez tous les prismes d'une Hypostase Électro avant qu'elle ne se régénère."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 51,
+                "id": "wjrq98sdj0klqzdi10",
                 "order": 51,
                 "name": {
                     "en": "\"That's one big Crystalfly\"",
-                    "fr": ""
+                    "fr": "C'est un énorme papillon cristallin Anémo..."
                 },
                 "description": {
                     "en": "Absorb all of an Anemo Hypostasis' Wind Crystals before it can be revived.",
-                    "fr": ""
+                    "fr": "Absorbez tous les orbes de vent d'une Hypostase Anémo avant qu'elle ne se régénère."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 52,
+                "id": "wjrq98sdj0klqzdi52",
                 "order": 52,
                 "name": {
-                    "en": "\"That's one big Crystalfly\"",
-                    "fr": ""
-                },
-                "description": {
-                    "en": "Defeat an Anemo Hypostasis before it can absorb any crystals.",
-                    "fr": ""
-                },
-                "reward": "10",
-                "icon": "",
-                "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
-                "version": "1.2"
-            },
-            {
-                "id": 53,
-                "order": 53,
-                "name": {
                     "en": "\"...Not indicative of final product\"",
-                    "fr": ""
+                    "fr": "Non représentative du produit final"
                 },
                 "description": {
                     "en": "Defeat an Anemo Hypostasis that has undergone 4 types of Elemental Conversions.",
-                    "fr": ""
+                    "fr": "Éliminez une Hypostase Anémo qui a effectué 4 phases de conversion élémentaire."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 54,
-                "order": 54,
+                "id": "wjrq98sdj0klqzdi8z",
+                "order": 53,
                 "name": {
                     "en": "The Bigger They Are...",
-                    "fr": ""
+                    "fr": "L'énorme statue et moi"
                 },
                 "description": {
                     "en": "Paralyze a Ruin Guard by attacking its weak point.",
-                    "fr": ""
+                    "fr": "Paralysez un Gardien des ruines en ciblant son point faible."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 55,
-                "order": 55,
+                "id": "wjrq98sdj0klqzdicx",
+                "order": 54,
                 "name": {
                     "en": "Through Pass",
-                    "fr": ""
+                    "fr": "Passe décisive"
                 },
                 "description": {
                     "en": "Knock a Pyro Slime out of the hands of a Hilichurl Grenadier.",
-                    "fr": ""
+                    "fr": "Ôtez un Pyroblob des mains d'un Grenadier Brutocollinus."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 56,
-                "order": 56,
+                "id": "wjrq98sdj0klqzdih6",
+                "order": 55,
                 "name": {
                     "en": "Dolorous Stroke",
-                    "fr": ""
+                    "fr": "Rien qu'en une attaque"
                 },
                 "description": {
                     "en": "Defeat an opponent by Shattering the ice they are trapped in.",
-                    "fr": ""
+                    "fr": "Éliminez un ennemi grâce aux DGT de l'effet Brise-glace (en brisant la glace dans laquelle il est piégé)."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 57,
-                "order": 57,
+                "id": "wjrq98sdj0klqzdim5",
+                "order": 56,
                 "name": {
                     "en": "Golden Bell Shield",
-                    "fr": ""
+                    "fr": "J'ai un bouclier incassable ♬"
                 },
                 "description": {
                     "en": "Gain over 1 minute's worth of continuous shielding through Crystallize Reactions.",
-                    "fr": ""
+                    "fr": "Générez un bouclier pendant 1 minute en continu à l'aide de Cristallisations répétées."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 58,
-                "order": 58,
+                "id": "wjrq98sdj0klqzdiq8",
+                "order": 57,
                 "name": {
                     "en": "Hilichurl Champion",
-                    "fr": ""
+                    "fr": "Maître Brutocollinus"
                 },
                 "description": {
                     "en": "Defeat a Stonehide Lawachurl before its Infused Form can expire.",
-                    "fr": ""
+                    "fr": "Éliminez un Chef Brutorocheux avant la fin de sa forme démoniaque."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 59,
-                "order": 59,
+                "id": "wjrq98sdj0klqzdiug",
+                "order": 58,
                 "name": {
                     "en": "Justice Falling",
-                    "fr": ""
+                    "fr": "Justice céleste"
                 },
                 "description": {
                     "en": "Hit an opponent after falling for over 5s with a Plunging Attack.",
-                    "fr": ""
+                    "fr": "Frappez un ennemi après une chute de 5 s lors d'une attaque descendante."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 60,
-                "order": 60,
+                "id": "wjrq98sdj0klqzdiye",
+                "order": 59,
                 "name": {
                     "en": "Bon Appétit",
-                    "fr": ""
+                    "fr": "Bon appétit"
                 },
                 "description": {
                     "en": "Have 4 party members in the Full state at the same time.",
-                    "fr": ""
+                    "fr": "Faites en sorte que 4 personnages de votre équipe soient rassasiés."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 4",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 61,
-                "order": 61,
+                "id": "wjrq98sdj0klqzdj2l",
+                "order": 60,
                 "name": {
                     "en": "Purveyor of Punishment",
-                    "fr": ""
+                    "fr": "Qui aime bien châtie bien"
                 },
                 "description": {
                     "en": "Deal over 5,000 CRIT DMG.",
-                    "fr": ""
+                    "fr": "Infligez plus de 5 000 pts de DGT CRIT."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 5000",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 62,
-                "order": 62,
+                "id": "wjrq98sdj0klqzdj6i",
+                "order": 61,
                 "name": {
                     "en": "Purveyor of Punishment",
-                    "fr": ""
+                    "fr": "Qui aime bien châtie bien"
                 },
                 "description": {
                     "en": "Deal over 20,000 CRIT DMG.",
-                    "fr": ""
+                    "fr": "Infligez plus de 20 000 pts de DGT Crit."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 20000",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 63,
-                "order": 63,
+                "id": "wjrq98sdj0klqzdjap",
+                "order": 62,
                 "name": {
                     "en": "Purveyor of Punishment",
-                    "fr": ""
+                    "fr": "Qui aime bien châtie bien"
                 },
                 "description": {
                     "en": "Deal over 50,000 CRIT DMG.",
-                    "fr": ""
+                    "fr": "Infligez plus de 50 000 pts de DGT CRIT."
                 },
                 "reward": "20",
-                "icon": "",
                 "progress": "0 / 50000",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 64,
-                "order": 64,
+                "id": "wjrq98sdj0klqzdjeq",
+                "order": 63,
                 "name": {
                     "en": "Fantastic Four",
-                    "fr": ""
+                    "fr": "Les Quatre Fantastiques"
                 },
                 "description": {
                     "en": "Complete a Domain using 4 characters of the same Elemental Type.",
-                    "fr": ""
+                    "fr": "Terminez un donjon avec 4 personnages du même type élémentaire."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 65,
-                "order": 65,
+                "id": "wjrq98sdj0klqzdjje",
+                "order": 64,
                 "name": {
                     "en": "\"Take That, You Overblown Mist Flower!\"",
-                    "fr": ""
+                    "fr": "Rien qu'un arbre"
                 },
                 "description": {
                     "en": "Defeat a Cryo Regisvine without destroying its corolla weak point.",
-                    "fr": ""
+                    "fr": "Vainquez un Arbre congelé sans détruire le point faible de sa corolle."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 66,
-                "order": 66,
+                "id": "wjrq98sdj0klqzdjnb",
+                "order": 65,
                 "name": {
                     "en": "\"That Was Blooming Hot\"",
-                    "fr": ""
+                    "fr": "Super chaud"
                 },
                 "description": {
                     "en": "Defeat a Pyro Regisvine without destroying its corolla weak point.",
-                    "fr": ""
+                    "fr": "Vainquez un Arbre enflammé sans détruire le point faible de sa corolle."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 67,
-                "order": 67,
+                "id": "wjrq98sdj0klqzdjrh",
+                "order": 66,
                 "name": {
                     "en": "Outlander Vs. Outlander",
-                    "fr": ""
+                    "fr": "Entre étrangers"
                 },
                 "description": {
                     "en": "Defeat Childe without any party member being marked and then hit by his follow-up attack.",
-                    "fr": ""
+                    "fr": "Vainquez Tartaglia sans qu'aucun personnage de l'équipe ne soit marqué et touché par l'attaque qui suit."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 68,
-                "order": 68,
+                "id": "wjrq98sdj0klqzdjve",
+                "order": 67,
                 "name": {
                     "en": "Penalty",
-                    "fr": ""
+                    "fr": "Pénalty"
                 },
                 "description": {
                     "en": "There are places where one cannot simply dig Pyro Slimes out of the ground...",
-                    "fr": ""
+                    "fr": "Impossible de déterrer les Pyroblobs à certains endroits..."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 69,
-                "order": 69,
+                "id": "wjrq98sdj0klqzdjzl",
+                "order": 68,
                 "name": {
                     "en": "Force Field Erosion",
-                    "fr": ""
+                    "fr": "Corrosion des forces"
                 },
                 "description": {
                     "en": "Destroy the Electro Hypostasis' barrier.",
-                    "fr": ""
+                    "fr": "Brisez la barrière d'une Hypostase Électro."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 70,
-                "order": 70,
+                "id": "wjrq98sdj0klqzdk3i",
+                "order": 69,
                 "name": {
                     "en": "\"...Lizard-Spock“",
-                    "fr": ""
+                    "fr": "... Lézard, Spock."
                 },
                 "description": {
                     "en": "Have one character get hit by all three parts of the rock-paper-scissors attack consecutively.",
-                    "fr": ""
+                    "fr": "L'un de vos personnages s'est fait avoir par chacun des éléments du jeu pierre-feuille-ciseaux à la suite."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 71,
-                "order": 71,
+                "id": "wjrq98sdj0klqzdk7r",
+                "order": 70,
                 "name": {
                     "en": "A House Ill-Founded",
-                    "fr": ""
+                    "fr": "Non-respect des normes de construction"
                 },
                 "description": {
                     "en": "Cause the same Geo Hypostasis to fall three times by destroying the Basalt Column that it is on.",
-                    "fr": ""
+                    "fr": "Faites tomber la même Hypostase Géo trois fois en détruisant le pilier rocher sur lequel elle se trouve."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 72,
-                "order": 72,
+                "id": "wjrq98sdj0klqzdkbp",
+                "order": 71,
                 "name": {
                     "en": "None Stand Secure",
-                    "fr": ""
+                    "fr": "Respect de l'architecture"
                 },
                 "description": {
                     "en": "Force the Geo Hypostasis into its revival state without destroying any Basalt Columns.",
-                    "fr": ""
+                    "fr": "Forcez une Hypostase Géo à se régénérer sans détruire aucun de ses piliers rocheux."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 73,
-                "order": 73,
+                "id": "wjrq98sdj0klqzdkfx",
+                "order": 72,
                 "name": {
                     "en": "Back With The Wind",
-                    "fr": ""
+                    "fr": "Le vent va, le vent vient"
                 },
                 "description": {
                     "en": "Absorb at least 10 Elemental Orbs created by the Anemo Hypostasis in a single battle.",
-                    "fr": ""
+                    "fr": "Absorbez au moins 10 orbes élémentaires générés par une Hypostase Anémo au cours du même combat."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 74,
-                "order": 74,
+                "id": "wjrq98sdj0klqzdkju",
+                "order": 73,
                 "name": {
                     "en": "Core Meltdown",
-                    "fr": ""
+                    "fr": "Fusion du noyau"
                 },
                 "description": {
                     "en": "Destroy the Blazing Seed created by a Pyro Regisvine.",
-                    "fr": ""
+                    "fr": "Détruisez la graine brûlante créée par un Arbre enflammé."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 75,
-                "order": 75,
+                "id": "wjrq98sdj0klqzdko1",
+                "order": 74,
                 "name": {
                     "en": "Knockout",
-                    "fr": ""
+                    "fr": "Vertigo"
                 },
                 "description": {
                     "en": "Destroy a Cryo Regisvine's corolla weak point while it is performing its rotary spray attack.",
-                    "fr": ""
+                    "fr": "Détruisez le point faible de la corolle d'un Arbre congelé quand il effectue son attaque tournoyante."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 76,
-                "order": 76,
+                "id": "wjrq98sdj0klqzdkrz",
+                "order": 75,
                 "name": {
                     "en": "\"...Till Debt Do Us Part\"",
-                    "fr": ""
+                    "fr": "Collecte de dette"
                 },
                 "description": {
                     "en": "Defeat a Fatui Agent while they are in their stealth mode.",
-                    "fr": ""
+                    "fr": "Vainquez un Usurier Pyro lorsqu'il est en mode furtif."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 77,
-                "order": 77,
+                "id": "wjrq98sdj0klqzdkww",
+                "order": 76,
                 "name": {
                     "en": "\"Melting... Away...\"",
-                    "fr": ""
+                    "fr": "« Je... fonds... »"
                 },
                 "description": {
                     "en": "Defeat a Cryo Cicin Mage while all her Cryo Cicins are currently active.",
-                    "fr": ""
+                    "fr": "Vainquez un Mage cryoluciole quand toutes ses Cryolucioles sont encore présentes."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 78,
-                "order": 78,
+                "id": "wjrq98sdj0klqzdl0r",
+                "order": 77,
                 "name": {
                     "en": "And You Call Yourself One of the Four Winds",
-                    "fr": ""
+                    "fr": "Un des Quatre Vents, vraiment ?"
                 },
                 "description": {
                     "en": "Defeat an Anemoboxer Vanguard after having triggered all of their Elemental Absorptions.",
-                    "fr": ""
+                    "fr": "Vainquez un Frappeur Anémo après avoir déclenché ses contre-attaques absorbantes de chaque élément."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 79,
-                "order": 79,
+                "id": "wjrq98sdj0klqzdl4o",
+                "order": 78,
                 "name": {
                     "en": "Touch and Go",
-                    "fr": ""
+                    "fr": "Touche-touche"
                 },
                 "description": {
                     "en": "Use a shield to counter a Geovishap's charging attack.",
-                    "fr": ""
+                    "fr": "Utilisez un bouclier pour contrer un certain type d'attaque percutante de Géosaure."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 80,
-                "order": 80,
+                "id": "wjrq98sdj0klqzdl8p",
+                "order": 79,
                 "name": {
                     "en": "Deflection!",
-                    "fr": ""
+                    "fr": "Ricochet !"
                 },
                 "description": {
                     "en": "Use a shield to counter a Primo Geovishap's Primordial Shower attack.",
-                    "fr": ""
+                    "fr": "Utilisez un bouclier pour contrer le jet de roche primitive d'un Géosaure."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 81,
-                "order": 81,
+                "id": "wjrq98sdj0klqzdlcm",
+                "order": 80,
                 "name": {
                     "en": "You Can Have Those Back!",
-                    "fr": ""
+                    "fr": "C'est à vous ça ?"
                 },
                 "description": {
                     "en": "Use a shield of a matching type (or a Geo shield) to counter a Geovishap's Primordial Shower attack and deal immense DMG.",
-                    "fr": ""
+                    "fr": "Utilisez un bouclier de l'élément Géo ou du même élément pour contrer le jet de roche primitive d'un Géosaure antique et infliger des DGT considérables."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 82,
-                "order": 82,
+                "id": "wjrq98sdj0klqzdlgs",
+                "order": 81,
                 "name": {
                     "en": "The End of the Beginning",
-                    "fr": ""
+                    "fr": "Le début d'un long voyage"
                 },
                 "description": {
                     "en": "Complete the Mondstadt Archon Quests.",
-                    "fr": ""
+                    "fr": "Terminez les Quêtes d'Archons de Mondstadt."
                 },
                 "reward": "20",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 83,
-                "order": 83,
+                "id": "wjrq98sdj0klqzdlkp",
+                "order": 82,
                 "name": {
                     "en": "The Outlander Who Caught the Wind",
-                    "fr": ""
+                    "fr": "Le Voyageur qui attrapa le vent"
                 },
                 "description": {
                     "en": "Complete \"The Outlander Who Caught the Wind.\"",
-                    "fr": ""
+                    "fr": "Terminez « Le Voyageur qui attrapa le vent »."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 84,
-                "order": 84,
+                "id": "wjrq98sdj0klqzdlov",
+                "order": 83,
                 "name": {
                     "en": "For a Tomorrow Without Tears",
-                    "fr": ""
+                    "fr": "Pour un avenir sans larmes"
                 },
                 "description": {
                     "en": "Complete \"For a Tomorrow Without Tears.\"",
-                    "fr": ""
+                    "fr": "Terminez « Pour un avenir sans larmes »."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 85,
-                "order": 85,
+                "id": "wjrq98sdj0klqzdlst",
+                "order": 84,
                 "name": {
                     "en": "Song of the Dragon and Freedom",
-                    "fr": ""
+                    "fr": "Chanson du dragon et de la liberté"
                 },
                 "description": {
                     "en": "Complete \"Song of the Dragon and Freedom.\"",
-                    "fr": ""
+                    "fr": "Terminez « Chanson du dragon et de la liberté »."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 86,
-                "order": 86,
+                "id": "wjrq98sdj0klqzdlx0",
+                "order": 85,
                 "name": {
                     "en": "Let the Wind Lead",
-                    "fr": ""
+                    "fr": "Le vent siffle dans nos oreilles"
                 },
                 "description": {
                     "en": "Obtain the power of Anemo.",
-                    "fr": ""
+                    "fr": "Obtenez la maîtrise de l'élément Anémo."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 87,
-                "order": 87,
+                "id": "wjrq98sdj0klqzdm0y",
+                "order": 86,
                 "name": {
                     "en": "...Or a New Storm?",
-                    "fr": ""
+                    "fr": "... ou une nouvelle tempête ?"
                 },
                 "description": {
                     "en": "Banish the dragon attacking Mondstadt.",
-                    "fr": ""
+                    "fr": "Chassez le dragon de Mondstadt."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 88,
-                "order": 88,
+                "id": "wjrq98sdj0klqzdm54",
+                "order": 87,
                 "name": {
                     "en": "Knighthood Excellence",
-                    "fr": ""
+                    "fr": "L'esprit d'un chevalier"
                 },
                 "description": {
                     "en": "Become an Honorary Knight of Favonius.",
-                    "fr": ""
+                    "fr": "Obtenez le titre de chevalier honoraire de l'Ordre de Favonius."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 89,
-                "order": 89,
+                "id": "wjrq98sdj0klqzdm91",
+                "order": 88,
                 "name": {
                     "en": "Knights and their Knotty Issues",
-                    "fr": ""
+                    "fr": "Le « problème » de l'Ordre de Favonius"
                 },
                 "description": {
                     "en": "Fail to borrow the Holy Relic... but learn of the Knights' dilemma.",
-                    "fr": ""
+                    "fr": "Vous ne parvenez pas à vous emparer de la lyre sacrée, mais faites la rencontre d'un des « problèmes » de l'Ordre de Favonius."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 90,
-                "order": 90,
+                "id": "wjrq98sdj0klqzdmd8",
+                "order": 89,
                 "name": {
                     "en": "Winds Change Their Course",
-                    "fr": ""
+                    "fr": "Le vent change toujours de direction"
                 },
                 "description": {
                     "en": "Be rescued by Dvalin.",
-                    "fr": ""
+                    "fr": "Faites-vous sauver par Dvalin."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 91,
-                "order": 91,
+                "id": "wjrq98sdj0klqzdmh9",
+                "order": 90,
                 "name": {
                     "en": "Of the Land Amidst Monoliths",
-                    "fr": ""
+                    "fr": "La terre mystique aux mille rochers"
                 },
                 "description": {
                     "en": "Complete \"Of the Land Amidst Monoliths\"",
-                    "fr": ""
+                    "fr": "Terminez « La terre mystique aux mille rochers »."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 92,
-                "order": 92,
+                "id": "wjrq98sdj0klqzdmlh",
+                "order": 91,
                 "name": {
                     "en": "Farewell, Archaic Lord",
-                    "fr": ""
+                    "fr": "Adieu à l'Exuvia"
                 },
                 "description": {
                     "en": "Complete \"Farewell, Archaic Lord.\"",
-                    "fr": ""
+                    "fr": "Terminez « Adieu à l'Exuvia »."
                 },
                 "reward": "10",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 93,
-                "order": 93,
+                "id": "wjrq98sdj0klqzdmpg",
+                "order": 92,
                 "name": {
                     "en": "Outlandish Behavior",
-                    "fr": ""
+                    "fr": "#{M#Un étranger sur un continent étranger}{F#Une étrangère sur un continent étranger}"
                 },
                 "description": {
                     "en": "Be rescued by an outsider at the \"tourist spot that locals don't go to.\"",
-                    "fr": ""
+                    "fr": "#Soyez {M#sauvé}{F#sauvée} par quelqu'un lorsque que vous êtes à « l'attrape-touristes du coin »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 94,
-                "order": 94,
+                "id": "wjrq98sdj0klqzdmto",
+                "order": 93,
                 "name": {
                     "en": "Silly-Billy Churlish Ghoul",
-                    "fr": ""
+                    "fr": "Qu'est-il arrivé à ces Brutocollinus ?"
                 },
                 "description": {
                     "en": "Agree to play with Dusky Ming.",
-                    "fr": ""
+                    "fr": "Jouez une fois avec Ming."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 95,
-                "order": 95,
+                "id": "wjrq98sdj0klqzdmxl",
+                "order": 94,
                 "name": {
                     "en": "That Smells Divine",
-                    "fr": ""
+                    "fr": "Parfum exquis"
                 },
                 "description": {
                     "en": "Figure out which perfume Rex Lapis is fond of.",
-                    "fr": ""
+                    "fr": "Découvrez le baume préféré du Souverain de la Roche."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 96,
-                "order": 96,
+                "id": "wjrq98sdj0klqzdn1s",
+                "order": 95,
                 "name": {
                     "en": "It's Bigger on the Inside",
-                    "fr": ""
+                    "fr": "C'est plus grand à l'intérieur !"
                 },
                 "description": {
                     "en": "Clean Madame Ping's teapot.",
-                    "fr": ""
+                    "fr": "Nettoyez la théière de Madame Ping."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 97,
-                "order": 97,
+                "id": "wjrq98sdj0klqzdn5q",
+                "order": 96,
                 "name": {
                     "en": "Ticked, Tacked, and Towed",
-                    "fr": ""
+                    "fr": "« Un aventurier courageux »"
                 },
                 "description": {
                     "en": "Commission others to finish your work, unfettered by such things as Mora.",
-                    "fr": ""
+                    "fr": "Engagez d'autres personnes pour faire le travail à votre place sans lésiner sur les moras."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 98,
-                "order": 98,
+                "id": "wjrq98sdj0klqzdna0",
+                "order": 97,
                 "name": {
                     "en": "Respecting Cultural Heritage",
-                    "fr": ""
+                    "fr": "Restauration des monuments historiques"
                 },
                 "description": {
                     "en": "You failed to find the Cocogoat... but manage to repair a mechanism.",
-                    "fr": ""
+                    "fr": "Vous ne trouvez pas la coco-chèvre, mais vous réussissez à réparer un monument ancien."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 99,
-                "order": 99,
+                "id": "wjrq98sdj0klqzdndz",
+                "order": 98,
                 "name": {
                     "en": "The Long Goodbye",
-                    "fr": ""
+                    "fr": "Un long adieu"
                 },
                 "description": {
                     "en": "Prepare everything necessary for the Rite of Parting.",
-                    "fr": ""
+                    "fr": "Faites toutes les préparations nécessaires pour le rituel de l'ascension."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 100,
-                "order": 100,
+                "id": "wjrq98sdj0klqzdni7",
+                "order": 99,
                 "name": {
                     "en": "Icing on the Slime",
-                    "fr": ""
+                    "fr": "Blob en sucre"
                 },
                 "description": {
                     "en": "Create a box of lovely, jubbly Sugar-Frosted Slimes.",
-                    "fr": ""
+                    "fr": "Préparez de délicieux Blobs confits."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 101,
-                "order": 101,
+                "id": "wjrq98sdj0klqzdnm5",
+                "order": 100,
                 "name": {
                     "en": "Sky's the Limit",
-                    "fr": ""
+                    "fr": "Montée au ciel"
                 },
                 "description": {
                     "en": "Reach Liyue's \"mansion in the sky\".",
-                    "fr": ""
+                    "fr": "Atteignez le « palais dans le ciel »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 102,
-                "order": 102,
+                "id": "wjrq98sdj0klqzdnr5",
+                "order": 101,
                 "name": {
                     "en": "Lily Loves Music",
-                    "fr": ""
+                    "fr": "Chant des lys"
                 },
                 "description": {
                     "en": "Sing a song of Mondstadt to the Glaze Lilies...",
-                    "fr": ""
+                    "fr": "Chantez une chanson de Mondstadt aux lys vernis..."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 103,
-                "order": 103,
+                "id": "wjrq98sdj0klqzdnuz",
+                "order": 102,
                 "name": {
                     "en": "I'll Let You Off... This Time",
-                    "fr": ""
+                    "fr": "On se reverra..."
                 },
                 "description": {
                     "en": "Defeat Childe.",
-                    "fr": ""
+                    "fr": "Battez Tartaglia."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 104,
-                "order": 104,
+                "id": "wjrq98sdj0klqzdnyv",
+                "order": 103,
                 "name": {
                     "en": "Derailed",
-                    "fr": ""
+                    "fr": "Déraillage"
                 },
                 "description": {
                     "en": "Defeat the Overlord of the Vortex.",
-                    "fr": ""
+                    "fr": "Battez le Dieu du Vortex."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 105,
-                "order": 105,
+                "id": "wjrq98sdj0klqzdo2y",
+                "order": 104,
                 "name": {
                     "en": "Final Farewell",
-                    "fr": ""
+                    "fr": "Adieu final"
                 },
                 "description": {
                     "en": "Take part in the Rite of Parting.",
-                    "fr": ""
+                    "fr": "Participez au rituel de l'ascension."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 106,
-                "order": 106,
+                "id": "wjrq98sdj0klqzdo6v",
+                "order": 105,
                 "name": {
                     "en": "A New Star Approaches",
-                    "fr": ""
+                    "fr": "Une étoile en approche"
                 },
                 "description": {
                     "en": "Complete \"A New Star Approaches\".",
-                    "fr": ""
+                    "fr": "Terminez « Une étoile en approche »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 107,
-                "order": 107,
+                "id": "wjrq98sdj0klqzdob4",
+                "order": 106,
                 "name": {
                     "en": "Gears of Destiny",
-                    "fr": ""
+                    "fr": "Les clés du destin"
                 },
                 "description": {
                     "en": "Complete the quest \"Bough Keeper: Dainsleif\".",
-                    "fr": ""
+                    "fr": "Terminez la quête « Le Gardien du Rameau »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.3"
             },
             {
-                "id": 108,
-                "order": 108,
+                "id": "wjrq98sdj0klqzdof0",
+                "order": 107,
                 "name": {
                     "en": "Pirates! Argh!",
-                    "fr": ""
+                    "fr": "Pirates !"
                 },
                 "description": {
                     "en": "Play a game of pirates with Little Lulu, Little Fei, and Little Meng.",
-                    "fr": ""
+                    "fr": "Jouez aux pirates avec Lulu, Fei et Petit Meng."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 109,
-                "order": 109,
+                "id": "wjrq98sdj0klqzdoj6",
+                "order": 108,
                 "name": {
                     "en": "A Nourishing Friendship",
-                    "fr": ""
+                    "fr": "Le chef et le pêcheur"
                 },
                 "description": {
                     "en": "Complete \"Fishing Jiangxue\" and \"Yanxiao's Dilemma.\"",
-                    "fr": ""
+                    "fr": "Terminez « Pêcheur solitaire » et « Le dilemne de Yanxiao »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 110,
-                "order": 110,
+                "id": "wjrq98sdj0klqzdon3",
+                "order": 109,
                 "name": {
                     "en": "Love Is All Around",
-                    "fr": ""
+                    "fr": "Aux immortels les affaires des dieux..."
                 },
                 "description": {
                     "en": "In \"Good Sign,\" help Zhihua find 5 signs that romance is coming his way.",
-                    "fr": ""
+                    "fr": "Aidez Zhihua à repérer des signes favorables à sa vie amoureuse dans « Bon augure »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 111,
-                "order": 111,
+                "id": "wjrq98sdj0klqzdor9",
+                "order": 110,
                 "name": {
                     "en": "For the Love of Godwin",
-                    "fr": ""
+                    "fr": "Toujours dans mon cœur"
                 },
                 "description": {
                     "en": "Finish \"Whispers in the Wind\" 5 times.",
-                    "fr": ""
+                    "fr": "Terminez 5 fois « Emporté par le vent »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 5",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 112,
-                "order": 112,
+                "id": "wjrq98sdj0klqzdov9",
+                "order": 111,
                 "name": {
                     "en": "Level Up",
-                    "fr": ""
+                    "fr": "Niveau supérieur"
                 },
                 "description": {
                     "en": "Help Huai'an repair Wangshu Inn's broken bridge.",
-                    "fr": ""
+                    "fr": "Aidez Huai'an à réparer le pont de l'Auberge Wangshu."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 113,
-                "order": 113,
+                "id": "wjrq98sdj0klqzdozf",
+                "order": 112,
                 "name": {
                     "en": "Beginner's Luck",
-                    "fr": ""
+                    "fr": "La chance du débutant"
                 },
                 "description": {
                     "en": "Select the highest-value jade on your first try.",
-                    "fr": ""
+                    "fr": "Choisissez la pierre brute qui a le plus de valeur dès la première tentative."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 114,
-                "order": 114,
+                "id": "wjrq98sdj0klqzdp3d",
+                "order": 113,
                 "name": {
                     "en": "Taking Responsibility for Your Actions",
-                    "fr": ""
+                    "fr": "Mes plus plates excuses"
                 },
                 "description": {
                     "en": "Apologize to Timmie.",
-                    "fr": ""
+                    "fr": "Excusez-vous auprès de Timmy."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 115,
-                "order": 115,
+                "id": "wjrq98sdj0klqzdp7i",
+                "order": 114,
                 "name": {
                     "en": "Making Do",
-                    "fr": ""
+                    "fr": "Ça se tient..."
                 },
                 "description": {
                     "en": "Only bring materials for a training dummy to Herman.",
-                    "fr": ""
+                    "fr": "Apportez le matériel pour fabriquer un mannequin de bois à Herman."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 116,
-                "order": 116,
+                "id": "wjrq98sdj0klqzdpbf",
+                "order": 115,
                 "name": {
                     "en": "Instant Karma",
-                    "fr": ""
+                    "fr": "Bonne action"
                 },
                 "description": {
                     "en": "Expose Marjorie and receive Jack's thanks.",
-                    "fr": ""
+                    "fr": "Dévoiler la supercherie de Marjorie et obtenir la reconnaissance de Jack."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 117,
-                "order": 117,
+                "id": "wjrq98sdj0klqzdpfm",
+                "order": 116,
                 "name": {
                     "en": "\"Dear Daddy...\"",
-                    "fr": ""
+                    "fr": "« Cher papa... »"
                 },
                 "description": {
                     "en": "Hear Timmie's story.",
-                    "fr": ""
+                    "fr": "Écoutez l'histoire de Timmy."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 118,
-                "order": 118,
+                "id": "wjrq98sdj0klqzdpjl",
+                "order": 117,
                 "name": {
                     "en": "Marvelous Medicine",
-                    "fr": ""
+                    "fr": "Remède miraculeux"
                 },
                 "description": {
                     "en": "Cure Anna's illness.",
-                    "fr": ""
+                    "fr": "Soignez la maladie d'Anna."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 119,
-                "order": 119,
+                "id": "wjrq98sdj0klqzdpnu",
+                "order": 118,
                 "name": {
                     "en": "In the Name of Favonius",
-                    "fr": ""
+                    "fr": "Au nom de Favonius"
                 },
                 "description": {
                     "en": "Witness Jilliana's tale.",
-                    "fr": ""
+                    "fr": "Soyez témoin de l'histoire de Gillianna."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 120,
-                "order": 120,
+                "id": "wjrq98sdj0klqzdpru",
+                "order": 119,
                 "name": {
                     "en": "Curious Concoction",
-                    "fr": ""
+                    "fr": "Une saveur jamais imaginée"
                 },
                 "description": {
                     "en": "Complete the mysterious cocktail.",
-                    "fr": ""
+                    "fr": "Achevez la préparation du cocktail mystérieux."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 121,
-                "order": 121,
+                "id": "wjrq98sdj0klqzdpw2",
+                "order": 120,
                 "name": {
                     "en": "Scholarly Pretensions",
-                    "fr": ""
+                    "fr": "Aventures studieuses"
                 },
                 "description": {
                     "en": "Complete \"The Lost Relic\" and \"A Little Raid.\"",
-                    "fr": ""
+                    "fr": "Terminez « Objet perdu et » « Pilleurs & reliques »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 122,
-                "order": 122,
+                "id": "wjrq98sdj0klqzdq01",
+                "order": 121,
                 "name": {
                     "en": "Poet Vs. Paycheck",
-                    "fr": ""
+                    "fr": "Rêve et réalité"
                 },
                 "description": {
                     "en": "Complete \"So-called Work\" and receive Linling's poetry anthology.",
-                    "fr": ""
+                    "fr": "Terminez « Problèmes au travail » et obtenez le recueil de poésie de Linling."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 123,
-                "order": 123,
+                "id": "wjrq98sdj0klqzdq49",
+                "order": 122,
                 "name": {
                     "en": "All's Well That Ends Well",
-                    "fr": ""
+                    "fr": "Un vieil ami"
                 },
                 "description": {
                     "en": "Complete the quest \"For Old Time's Sake.\"",
-                    "fr": ""
+                    "fr": "Terminez « Mais où est passé Chang ? »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 124,
-                "order": 124,
+                "id": "wjrq98sdj0klqzdq89",
+                "order": 123,
                 "name": {
                     "en": "This Novel Is Amazing!",
-                    "fr": ""
+                    "fr": "Un roman passionnant"
                 },
                 "description": {
                     "en": "Steal a peek at Chang the Ninth's draft manuscript.",
-                    "fr": ""
+                    "fr": "Jetez un œil au manuscrit de Chang le Neuvième."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 125,
-                "order": 125,
+                "id": "wjrq98sdj0klqzdqcn",
+                "order": 124,
                 "name": {
                     "en": "Open to Interpretation",
-                    "fr": ""
+                    "fr": "Aux mortels les affaires des hommes..."
                 },
                 "description": {
                     "en": "Ruin 4 signs of an imminent romance.",
-                    "fr": ""
+                    "fr": "Gâchez 4 signes d'une histoire d'amour naissante."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             },
             {
-                "id": 126,
-                "order": 126,
+                "id": "wjrq98sdj0klqzdqgr",
+                "order": 125,
                 "name": {
                     "en": "Get Your Own Emergency Food!",
-                    "fr": ""
+                    "fr": "Ce n'est pas un casse-croûte d'urgence."
                 },
                 "description": {
                     "en": "Consume the food during \"Food Delivery\"...?",
-                    "fr": ""
+                    "fr": "Mangez le plat que vous êtes censé livrer au cours de « Livraison à domicile »."
                 },
                 "reward": "5",
-                "icon": "",
                 "progress": "0 / 1",
-                "help": {
-                    "en": "",
-                    "fr": ""
-                },
                 "version": "1.2"
             }
         ]

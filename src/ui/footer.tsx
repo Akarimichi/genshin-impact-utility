@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer>
             Genshin Impact™ is a registered trademark of MiHoYo Co., Ltd.<br/>
-            This website is made for educational and research purpose and is not affiliated
+            This website is not affiliated
             to official Genshin impact.<br/>
             Images and data ©MiHoYo Co., Ltd.<br/><br/>
             © {moment().format('Y')} Akarimichi Genshin impact utility.
