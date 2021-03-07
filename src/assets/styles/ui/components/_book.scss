@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: var(--color-border-blue-dark);
+    background-color: var(--ui-blue-dark);
     border-radius: 10px;
     padding: 20px;
     max-width: 61.95%;
@@ -21,15 +21,15 @@
         left: 5px;
         right: 5px;
         border-radius: 10px;
-        border: 3px solid var(--color-border-blue-light);
+        border: 3px solid var(--ui-blue-light);
         z-index: 1;
     }
 
     .book__content {
         position: relative;
         flex-grow: 1;
-        background-color: var(--color-bg-white);
-        border: 2px solid var(--color-border-brown);
+        background-color: var(--ui-white);
+        border: 2px solid var(--ui-brown-darken);
         border-radius: 8px;
         z-index: 2;
 
@@ -201,11 +201,11 @@
 
                 margin: 6px 20px;
                 display: flex;
-                background-color: var(--color-bg-white-light);
-                border: 2px solid var(--color-border-brown-light);
-                box-shadow: var(--color-shadow-brown-light);
-                -webkit-box-shadow: var(--color-shadow-brown-light);
-                -moz-box-shadow: var(--color-shadow-brown-light);
+                background-color: var(--ui-white-light);
+                border: 2px solid var(--ui-brown-light);
+                box-shadow: var(--ui-shadow-brown);
+                -webkit-box-shadow: var(--ui-shadow-brown);
+                -moz-box-shadow: var(--ui-shadow-brown);
 
                 &:last-child{
                     margin-bottom: 20px;
@@ -221,10 +221,10 @@
                 }
 
                 &:active{
-                    border-color: var(--color-border-orange-light);
-                    box-shadow: var(--color-shadow-orange-light);
-                    -webkit-box-shadow: var(--color-shadow-orange-light);
-                    -moz-box-shadow: var(--color-shadow-orange-light);
+                    border-color: var(--ui-orange);
+                    box-shadow: var(--ui-shadow-orange);
+                    -webkit-box-shadow: var(--ui-shadow-orange);
+                    -moz-box-shadow: var(--ui-shadow-orange);
                 }
 
                 .book__row-picto {
@@ -258,7 +258,7 @@
                         margin-top: 5px;
                         margin-bottom: auto;
                         font-size: 0.9rem;
-                        color: var(--color-txt-brown-light);
+                        color: var(--ui-brown-dark);
                     }
                 }
 
@@ -279,7 +279,7 @@
 
                             position: absolute;
                             bottom: 2px;
-                            color: var(--color-txt-white-light);
+                            color: var(--white);
                             text-align: center;
                             left: 0;
                             right: 0;
@@ -298,10 +298,10 @@
                     align-items: center;
                     justify-content: center;
                     text-align: center;
-                    background-color: var(--color-bg-white-dark);
+                    background-color: var(--ui-white-dark);
                     width: 130px;
                     font-size: 1.1rem;
-                    color: var(--color-txt-brown-light);
+                    color: var(--ui-brown-dark);
                 }
 
             }

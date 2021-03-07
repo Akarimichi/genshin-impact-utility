@@ -5,7 +5,7 @@
     margin: 0 25px;
 
     .achievement__category__title{
-        background-color: var(--color-bg-black-transparent);
+        background-color: var(--ui-blue-transparent);
         position: relative;
         padding: 15px;
         width: calc(100% - 15px);
@@ -21,7 +21,7 @@
             bottom: 3px;
             left: 3px;
             right: 3px;
-            border: 2px solid var(--color-border-blue-light);
+            border: 2px solid var(--ui-blue-light);
             z-index: 1;
         }
 
@@ -40,12 +40,12 @@
             flex-direction: column;
 
             .title{
-                font-size: 1.2rem;
-                color: var(--color-txt-white);
+                font-size: 1.1rem;
+                color: var(--ui-white);
             }
 
             .progress{
-                color: var(--color-txt-brown);
+                color: var(--ui-brown);
                 font-size: 0.9rem;
             }
 
@@ -54,15 +54,15 @@
 
         &.active {
             width: 100%;
-            background-color: var(--color-bg-white-dark);
+            background-color: var(--ui-white-dark);
 
             &:after{
-                border-color: var(--color-border-brown-light)
+                border-color: var(--ui-brown-light)
             }
 
             .achievement__category__title-description {
                 .title {
-                    color: var(--color-txt-black);
+                    color: var(--ui-grey);
                 }
             }
 
@@ -72,7 +72,7 @@
                 border-top: 10px solid transparent;
                 border-bottom: 10px solid transparent;
                 border-right: 10px solid transparent;
-                border-left: 10px solid var(--color-border-white);
+                border-left: 10px solid var(--white);
                 left: -13px;
                 top: calc(50% - 15px);
             }

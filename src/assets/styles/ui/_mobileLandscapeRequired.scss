@@ -1,7 +1,7 @@
 .mobile-landscape-required {
 
     position: fixed;
-    background-color: var(--color-bg-black-light);
+    background-color: var(--ui-blue-dark);
     top: 0;
     left: 0;
     right: 0;
@@ -15,7 +15,7 @@
     .device-icon {
         height: 153px;
         width: 310px;
-        border: 2px solid var(--color-border-white);
+        border: 2px solid var(--white);
         border-radius: 10px;
         animation: rotate 1.5s ease-in-out infinite alternate;
         position: relative;
@@ -27,7 +27,7 @@
     }
 
     .message {
-        color: var(--color-txt-white-light);
+        color: var(--white);
         margin-top: 120px;
         font-size: 1.9rem;
     }

@@ -109,7 +109,8 @@ canvas{
 html,
 a,
 body.os-dragging,
-body.os-dragging * {
+body.os-dragging * ,
+.select-gi-theme__container *{
 	cursor: url('../images/cursor.png'), auto!important;
 }
 
@@ -120,7 +121,7 @@ html {
     body {
 
         font-family: 'HYWenHei-85W';
-        color: var(--color-txt-black);
+        color: var(--ui-grey);
         font-size: 1rem;
 
         .body-container {
@@ -142,8 +143,8 @@ html {
             }
 
             footer {
-                background-color: var(--color-bg-grey-blue);
-                outline: 3px solid var(--color-border-grey-blue);
+                background-color: var(--ui-blue-dark);
+                outline: 3px solid var(--ui-blue-light);
                 outline-offset: -5px;
                 padding: 15px;
                 min-height: 100px;
@@ -151,7 +152,7 @@ html {
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                color: var(--color-txt-white);
+                color: var(--ui-white);
                 font-size: 0.9rem;
             }
 

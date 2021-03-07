@@ -1,0 +1,110 @@
+.select-gi-theme__container{
+
+    .select-gi-theme__control {
+        background-color: var(--ui-white);
+        border: 2px solid var(--ui-white);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 25px;
+
+        &.select-gi-theme__control--is-focused{
+            border: 2px solid var(--ui-white-darken);
+            box-shadow: 0 0 0 3px var(--white);
+        }
+
+        .select-gi-theme__single-value{
+            color: var(--ui-grey);
+        }
+
+        .select-gi-theme__indicator-separator{
+            display: none;
+        }
+
+        .select-gi-theme__dropdown-indicator-icon{
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 10px solid var(--ui-grey-dark);
+        }
+    }
+
+    .select-gi-theme__menu{
+        margin: 0;
+        margin-top: -2px;
+        border-radius: 25px;
+        background-color: var(--ui-grey-dark);
+
+        .select-gi-theme__menu-list{
+            padding: 5px;
+
+            .select-gi-theme__option {
+                border-radius: 25px;
+                color: var(--ui-white);
+                display: flex;
+
+                .select-gi-theme__option-check-icon {
+                    margin-left: auto;
+                    display:inline-block;
+                    width: 15px;
+                    height: 15px;
+                    border-radius:50%;
+                    -ms-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+
+                    &:before{
+                        content:'';
+                        position: absolute;
+                        width   :3px;
+                        height: 18px;
+                        background-color: var(--ui-white);
+                        left: 8px;
+                        top: 0px;
+                    }
+
+                    &:after{
+                        content:'';
+                        position: absolute;
+                        width:  8px;
+                        height: 3px;
+                        background-color: var(--ui-white);
+                        left: 0;
+                        top: 15px;
+                    }
+                }
+
+                &.select-gi-theme__option--is-selected{
+                    background-color: var(--ui-grey-light);
+                    color: var(--ui-white);
+
+                    .select-gi-theme__option-check-icon {
+                        &:before{
+                            background-color: var(--ui-white);
+                        }
+
+                        &:after{
+                            background-color: var(--ui-white);
+                        }
+                    }
+                }
+
+                &.select-gi-theme__option--is-focused{
+                    background-color: var(--ui-white);
+                    color: var(--ui-grey);
+
+                    .select-gi-theme__option-check-icon {
+                        &:before{
+                            background-color: var(--ui-grey);
+                        }
+
+                        &:after{
+                            background-color: var(--ui-grey);
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+}
