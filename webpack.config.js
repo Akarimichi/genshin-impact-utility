@@ -127,7 +127,7 @@ module.exports = {
             openAnalyzer: false,
         }),
         new FontminPlugin({
-            glyphs: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.?,!éè&à)("_-ç=-+:/\\²%£$€#{[}];@<>|`°*ù~©™\''.split(''),
+            glyphs: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.?û,!éèê&àÀÆæÇÉÈŒœÙ)("_-ç=-+:/\\²%£$€#{[}];@<>«»|`°*ù~©™\''.split(''),
         }),
         new CopyPlugin([
                 {

@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Achievement, BookProps, BookRowProps } from '../../typings/achievement';
 import { getLocalStorage, setLocalStorage, useClickOutside } from '../../utils/utils';
 import Hammer from 'hammerjs';
-import InfiniteScroll from 'react-infinite-scroll-component';
 import { LinkType } from '../../typings/routes';
 import { useParams } from 'react-router-dom';
 
@@ -20,32 +19,48 @@ import ImgAchievement from '../../assets/images/achievements/achievement.png';
 import ImgAchievementDone from '../../assets/images/achievements/achievement_done.png';
 import ImgPrimogem from '../../assets/images/achievements/primogem.png';
 
-const BookRow = (props: BookRowProps) => {
+const BookRow = ({
+    achievementCategory,
+    item,
+    setRowActive,
+    rowActive,
+    listAchievementsClear,
+    setListAchievementsClear
+}: BookRowProps) => {
 
-    // Check in local storage if the id is in array
-    const localStorageAchv: string[] = getLocalStorage(props.indexAchv, 'json');
+    // State acheivement clear
     const [achievementDone, setAchievementAsDone] = useState<boolean>(
-        (localStorageAchv.includes(props.item.id) ? true : false)
+        (listAchievementsClear[ achievementCategory ]?.includes(item.id) ? true : false)
     );
 
-    // Hnadle click achivevement done
+    // Handle click achivevement done
     const handleClickAchievementDone = (item: Achievement) => {
 
-        let localStorageAchv: string[] = getLocalStorage(props.indexAchv, 'json');
+        const updatedListAchievementsClear = listAchievementsClear;
 
-        if (achievementDone) {
-            localStorageAchv = localStorageAchv.filter((idAchv) => (idAchv !== props.item.id));
-        } else {
-            localStorageAchv.push(props.item.id);
+        if (!Array.isArray(updatedListAchievementsClear[ achievementCategory ])) {
+            updatedListAchievementsClear[ achievementCategory ] = [];
         }
 
-        setLocalStorage(props.indexAchv, localStorageAchv, 'json');
+        if (updatedListAchievementsClear[ achievementCategory ]?.includes(item.id)) {
+
+            updatedListAchievementsClear[ achievementCategory ] =
+            updatedListAchievementsClear[ achievementCategory ]
+            .filter((idAchv: any) => (idAchv !== item.id));
+
+        } else {
+            updatedListAchievementsClear[ achievementCategory ].push(item.id);
+        }
+
+        setListAchievementsClear(updatedListAchievementsClear);
+        setLocalStorage('achievements', updatedListAchievementsClear, 'json');
         setAchievementAsDone(!achievementDone);
+
     };
 
     // State row click outside
     const { ref } = useClickOutside(() => {
-        props.setRowActive(null);
+        setRowActive(null);
     });
 
     // Get url parameters
@@ -54,57 +69,49 @@ const BookRow = (props: BookRowProps) => {
 
 
     return (
-        <div ref={ref} className={`book__row ${(props.rowActive === props.item.id  ? 'active' : '')}`} onMouseDown={() => props.setRowActive(props.item.id)}>
+        <div ref={ref} className={`book__row ${(rowActive === item.id  ? 'active' : '')}`} onMouseDown={() => setRowActive(item.id)}>
 
             <div className="book__row-picto">
                 <img
                     src={(achievementDone ? ImgAchievementDone : ImgAchievement)}
-                    onClick={() => handleClickAchievementDone(props.item)}
+                    onClick={() => handleClickAchievementDone(item)}
                 />
             </div>
 
             <div className="book__row-description">
-                <span>{props.item.name[ locale ]}</span>
-                <p>{props.item.description[ locale ]}</p>
+                <span>{item.name[ locale ]}</span>
+                <p>{item.description[ locale ]}</p>
             </div>
 
             <div className="book__row-reward">
                 <div>
                     <img src={ImgPrimogem} />
-                    <span>{props.item.reward}</span>
+                    <span>{item.reward}</span>
                 </div>
             </div>
 
             <div className="book__row-progress">
-                {props.item.progress}
+                {item.progress}
             </div>
 
         </div>
     );
 };
 
-const Book = (props: BookProps) => {
+const Book = ({
+    setListAchievements,
+    listAchievements,
+    listAchievementsFull,
+    achievementCategory,
+    listAchievementsClear,
+    setListAchievementsClear
+}: BookProps) => {
 
     // State row active
     const [rowActive, setRowActive] = useState<string | null>(null);
     const refBookContentScroll = useRef<HTMLDivElement | null>(null);
     const [mounted, setMounted] = useState<boolean>(false);
 
-    // State list achievements
-    const [listAchievements, setListAchievements] = useState<Achievement[]>(
-        props.achievementTitle.achievements.slice(0, 20)
-    );
-
-
-    const fetchListAchievements = () => {
-        setListAchievements(
-            listAchievements.concat(
-                props.achievementTitle.achievements.slice(
-                    listAchievements.length, listAchievements.length + 20
-                )
-            )
-        );
-    };
 
     useEffect(() => {
 
@@ -146,24 +153,17 @@ const Book = (props: BookProps) => {
                     className="book__content-scroll"
                     ref={refBookContentScroll}
                 >
-                    <InfiniteScroll
-                        dataLength={listAchievements.length}
-                        next={fetchListAchievements}
-                        hasMore={true}
-                        loader={null}
-                        endMessage={null}
-                        scrollableTarget="bookContentScrollable"
-                    >
-                        {listAchievements.map((item) => (
-                            <BookRow
-                                key={item.id}
-                                item={item}
-                                indexAchv={props.achievementTitle.index}
-                                rowActive={rowActive}
-                                setRowActive={setRowActive}
-                            />
-                        ))}
-                    </InfiniteScroll>
+                    {listAchievements.map((item) => (
+                        <BookRow
+                            key={item.id}
+                            item={item}
+                            achievementCategory={achievementCategory}
+                            rowActive={rowActive}
+                            setRowActive={setRowActive}
+                            listAchievementsClear={listAchievementsClear}
+                            setListAchievementsClear={setListAchievementsClear}
+                        />
+                    ))}
                 </div>
 
             </div>

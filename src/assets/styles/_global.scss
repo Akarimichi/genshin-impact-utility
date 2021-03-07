@@ -160,3 +160,18 @@ html {
 
     }
 }
+
+/* Input */
+
+.gi__input{
+    background-color: var(--ui-white);
+    border: 2px solid var(--ui-white);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    font-family: 'HYWenHei-85W';
+    color: var(--ui-grey);
+    font-size: 1rem;
+    outline: none!important;
+    padding: 2px 8px;
+    width: 180px;
+}

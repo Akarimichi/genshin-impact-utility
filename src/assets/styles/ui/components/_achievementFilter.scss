@@ -1,0 +1,22 @@
+.achievement__filters{
+    max-width: 61.95%;
+    margin-left: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 35px;
+
+    .gi__input{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    .select-gi-theme__container{
+        margin-right: 15px;
+        width: 180px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

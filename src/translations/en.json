@@ -1,3 +1,7 @@
 {
-    "achievements": "Achievements"
+    "achievements": "Achievements",
+    "all": "All",
+    "clear": "Clear",
+    "unclear": "Unclear",
+    "search": "Search"
 }

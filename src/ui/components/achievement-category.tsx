@@ -6,18 +6,18 @@ import { LinkType } from '../../typings/routes';
 import { useParams } from 'react-router-dom';
 
 
-const AchievementCategoryTitle = (props: AchievementCategoryTitleProps) => {
+const AchievementCategoryTitle = ({ index, achievementTitle }: AchievementCategoryTitleProps) => {
 
     // Get url parameters
     const { locale }: LinkType = useParams();
 
     return (
-        <div className={`achievement__category__title ${(props.index === 0 ? 'active' : '')}`}>
+        <div className={`achievement__category__title ${(index === 0 ? 'active' : '')}`}>
             <div className="achievement__category__title-icon">
                 <img src={ImgCategory1}/>
             </div>
             <div className="achievement__category__title-description">
-                <span className="title">{props.achievementTitle.name[ locale ]}</span>
+                <span className="title">{achievementTitle.name[ locale ]}</span>
                 {/* <span className="progress">100%</span> */}
             </div>
         </div>
@@ -25,10 +25,10 @@ const AchievementCategoryTitle = (props: AchievementCategoryTitleProps) => {
 };
 
 
-const AchievementCategory = (props: AchievementCategoryProps) => {
+const AchievementCategory = ({ achievementTab }: AchievementCategoryProps) => {
     return (
         <div className="achievement__category">
-            {props.achievementTab.map((item: AchievementTitle, key: number) => (
+            {achievementTab.map((item: AchievementTitle, key: number) => (
                 <AchievementCategoryTitle
                     key={key}
                     index={key}

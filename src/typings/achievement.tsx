@@ -18,14 +18,21 @@ export interface AchievementTitle {
 }
 
 export interface BookProps {
-    achievementTitle: AchievementTitle;
+    listAchievements: Achievement[];
+    listAchievementsFull: Achievement[];
+    setListAchievements: (listAchievements: Achievement[]) => void;
+    achievementCategory: number;
+    listAchievementsClear: any[];
+    setListAchievementsClear: (listAchievementsClear: any[]) => void;
 }
 
 export interface BookRowProps {
     item: Achievement;
-    indexAchv: string;
+    achievementCategory: number;
     setRowActive: (index: string | null) => void;
     rowActive: string | null;
+    listAchievementsClear: any[];
+    setListAchievementsClear: (listAchievementsClear: any[]) => void;
 }
 
 export interface AchievementCategoryProps {
@@ -35,4 +42,13 @@ export interface AchievementCategoryProps {
 export interface AchievementCategoryTitleProps {
     index: number;
     achievementTitle: AchievementTitle;
+}
+
+export interface FilterAchievementProps {
+    filterListAchievements: (
+        version: string | null,
+        statut: string | null,
+        search: string | null
+    ) => Achievement[];
+    setListAchievements: (listAchievements: Achievement[]) => void;
 }

@@ -1377,11 +1377,11 @@
                 "order": 92,
                 "name": {
                     "en": "Outlandish Behavior",
-                    "fr": "#{M#Un étranger sur un continent étranger}{F#Une étrangère sur un continent étranger}"
+                    "fr": "Un étranger sur un continent étranger"
                 },
                 "description": {
                     "en": "Be rescued by an outsider at the \"tourist spot that locals don't go to.\"",
-                    "fr": "#Soyez {M#sauvé}{F#sauvée} par quelqu'un lorsque que vous êtes à « l'attrape-touristes du coin »."
+                    "fr": "Soyez sauvé par quelqu'un lorsque que vous êtes à « l'attrape-touristes du coin »."
                 },
                 "reward": "5",
                 "progress": "0 / 1",

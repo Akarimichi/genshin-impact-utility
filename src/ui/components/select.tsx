@@ -22,9 +22,12 @@ const Select = (props: Props) => {
 
     return (
         <ReactSelect
+            ref={props.innerRef}
             components={{ DropdownIndicator, Option }}
             className="select-gi-theme__container"
             classNamePrefix="select-gi-theme"
+            menuPlacement={props.menuPlacement}
+            /* menuIsOpen={true} */
             {...props}
         />
     );

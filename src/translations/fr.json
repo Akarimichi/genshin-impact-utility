@@ -1,3 +1,7 @@
 {
-    "achievements": "Succès"
+    "achievements": "Succès",
+    "all": "Tout",
+    "clear": "Terminé",
+    "unclear": "Non terminé",
+    "search": "Rechercher"
 }
