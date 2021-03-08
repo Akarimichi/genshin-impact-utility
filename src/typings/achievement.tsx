@@ -13,7 +13,6 @@ export interface Achievement {
 export interface AchievementTitle {
     name: Languages;
     icon: string;
-    index: string;
     achievements: Achievement[];
 }
 

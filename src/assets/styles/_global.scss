@@ -108,6 +108,7 @@ canvas{
 
 html,
 a,
+button,
 body.os-dragging,
 body.os-dragging * ,
 .select-gi-theme__container *{
@@ -117,6 +118,10 @@ body.os-dragging * ,
 html {
 
     user-select: none;
+
+    &.menu-open{
+        overflow: hidden;
+    }
 
     body {
 
@@ -161,8 +166,6 @@ html {
     }
 }
 
-/* Input */
-
 .gi__input{
     background-color: var(--ui-white);
     border: 2px solid var(--ui-white);
@@ -174,4 +177,36 @@ html {
     outline: none!important;
     padding: 2px 8px;
     width: 180px;
+}
+
+.gi__button-circle{
+    background-color: var(--ui-white);
+    border: 4px solid var(--ui-grey-darken);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 100%;
+    font-family: 'HYWenHei-85W';
+    color: var(--ui-grey);
+    font-size: 1rem;
+    outline: none!important;
+    padding: 2px 8px;
+
+    svg path{
+        fill: var(--ui-grey);
+    }
+
+    &:focus{
+        border: 4px solid var(--white);
+    }
+
+    &:active{
+        background-color:  var(--ui-brown-dark");
+        border: 4px solid var(--ui-brown-dark");
+        color: var(--white);
+
+        svg path{
+            fill: var(--white);
+        }
+
+    }
+
 }

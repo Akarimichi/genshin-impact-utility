@@ -14,7 +14,7 @@ import {
 } from 'redux';
 import { createHashHistory } from 'history';
 import { routerMiddleware, connectRouter, RouterState } from 'connected-react-router';
-import * as Layout from './states/Layout';
+import * as Menu from './states/Menu';
 
 // ------------------- TYPES
 
@@ -30,12 +30,12 @@ declare global {
 
 // STATE
 export interface State {
-    layout: Layout.State;
+    menu: Menu.State;
     router: RouterState;
 }
 
 // ACTION
-export type Action = Layout.Action;
+export type Action = Menu.Action;
 
 // ------------------- HISTORY
 
@@ -44,7 +44,7 @@ export const history = createHashHistory();
 // ------------------- REDUCER
 
 const createRootReducer = combineReducers<State>({
-    layout: Layout.reducer,
+    menu: Menu.reducer,
     router: connectRouter(history)
 });
 

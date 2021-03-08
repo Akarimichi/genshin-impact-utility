@@ -76,7 +76,17 @@ module.exports = {
                 }
             },
             {
-                test: /\.(gif|png|jpe?g|svg)$/i,
+                test: /\.svg$/,
+                use: {
+                    loader: '@svgr/webpack',
+                    options: {
+                        limit: 10000,
+                        mimetype: 'image/svg+xml'
+                    }
+                }
+            },
+            {
+                test: /\.(gif|png|jpe?g)$/i,
                 use: [
                     {
                         loader: 'file-loader',

@@ -5,16 +5,17 @@ import { produce } from 'immer';
 
 // STATE
 export interface State {
-    items: any;
+    menuActive: boolean;
 }
 
 export const initialState: Readonly<State> = {
-    items: []
+    menuActive: false
 };
 
 // ACTION
 export type Action = {
-    type: 'Layout/SetDefault';
+    type: 'Menu/ToggleMenu';
+    menuActive?: boolean;
 };
 
 // REDUCER
@@ -23,8 +24,8 @@ export const reducer: Reducer<State, Action> = (
     action
 ) => {
     return produce(state, (newState: State) => {
-        if (action.type === 'Layout/SetDefault') {
-            newState.items = initialState.items;
+        if (action.type === 'Menu/ToggleMenu') {
+            newState.menuActive = action.menuActive;
         }
     });
 };

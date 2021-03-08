@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import { History } from 'history';
 import Footer from './footer';
-import Header from './header';
+import Menu from './menu';
 import Body from './body';
 import MobileLandscapeRequired from './mobile-landscape-required';
 
@@ -18,7 +18,7 @@ const Root = ({ store, history }: Props) => (
         <ConnectedRouter history={history}>
             <MobileLandscapeRequired/>
             <div className="body-container">
-                {/* <Header /> */}
+                <Menu />
                 <Body />
                 <Footer/>
             </div>

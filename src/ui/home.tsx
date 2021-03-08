@@ -9,9 +9,6 @@ const Home = () => {
 
     return (
         <>
-            {/* <div><Link to={`/${locale}/achievements`}>{_i18n(locale, 'achievements')}</Link></div> */}
-            <div><Link to="/en/achievements">{_i18n('en', 'achievements')}</Link></div>
-            <div><Link to="/fr/achievements">{_i18n('fr', 'achievements')}</Link></div>
         </>
     );
 };
