@@ -115,11 +115,17 @@ body.os-dragging * ,
 	cursor: url('../images/cursor.png'), auto!important;
 }
 
+a[href]{
+    color: var(--ui-brown-dark);
+    text-decoration: none;
+}
+
 html {
 
     user-select: none;
 
-    &.menu-open{
+    &.menu-open,
+    &.popup-open{
         overflow: hidden;
     }
 
@@ -128,6 +134,7 @@ html {
         font-family: 'HYWenHei-85W';
         color: var(--ui-grey);
         font-size: 1rem;
+        line-height: 1.4rem;
 
         .body-container {
 

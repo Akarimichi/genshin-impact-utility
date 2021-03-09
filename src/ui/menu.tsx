@@ -5,19 +5,13 @@ import _i18n from '../translations/i18n';
 import ImgAchievement from '../assets/images/menu/achievement.png';
 import ArrowIcon from '../assets/images/icon/arrow.svg';
 import HomeIcon from '../assets/images/icon/home.svg';
+import ImgBaner from '../assets/images/menu/banner.png';
+import ImgProfil from '../assets/images/menu/profil.png';
 import { useSelector, useDispatch } from '../redux/store';
 import { LinkType } from '../typings/routes';
+import { MenuProps } from '../typings/menu';
 
-const Menu = () => {
-
-    // Get url parameters
-    const location = useLocation();
-    const match: any = matchPath(location.pathname, {
-        path: '/:locale',
-        strict: false
-    });
-
-    const locale = match ? match.params.locale : 'en';
+const Menu = ({ locale }: MenuProps) => {
 
 
     const dispatch = useDispatch();
@@ -67,7 +61,12 @@ const Menu = () => {
                     </button>
                 </div>
                 <div className="menu__nav-right">
-                    <div className="menu__nav-right-urserInfos"></div>
+                    <div className="menu__nav-right-urserInfos">
+                        <img src={ImgBaner}/>
+                        <div className="profil">
+                            <img src={ImgProfil} />
+                        </div>
+                    </div>
                     <div className="menu__nav-right-itemList">
                         <Link className="menu__nav-right-itemList-item home" to={`/${locale}/`}>
                             <HomeIcon/>

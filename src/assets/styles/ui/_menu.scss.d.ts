@@ -10,6 +10,7 @@ declare const styles: {
   readonly "menu__nav-right-itemList": string;
   readonly "menu__nav-right-itemList-item": string;
   readonly "menu__nav-right-urserInfos": string;
+  readonly "profil": string;
 };
 export = styles;
 

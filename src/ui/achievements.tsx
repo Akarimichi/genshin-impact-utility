@@ -75,9 +75,9 @@ const Achievements = () => {
                 return true;
             } else if (version !== 'all' && achv.version !== version) {
                 return false;
-            } else if (statut !== 'all' && !listAchievementsClear[ achievementCategory ].includes(achv.id) && statut === 'clear') {
+            } else if (statut !== 'all' && !listAchievementsClear[ achievementCategory ]?.includes(achv.id) && statut === 'clear') {
                 return false;
-            } else if (statut !== 'all' && listAchievementsClear[ achievementCategory ].includes(achv.id) && statut === 'unclear') {
+            } else if (statut !== 'all' && listAchievementsClear[ achievementCategory ]?.includes(achv.id) && statut === 'unclear') {
                 return false;
             } else if (search !== '' && search !== null) {
                 return (

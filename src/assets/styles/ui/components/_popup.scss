@@ -1,0 +1,72 @@
+.popup {
+    z-index: 1999;
+    position: fixed;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .popup__body{
+        display: grid;
+
+        .popup__body-content{
+            grid-area: 1 / 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 755px;
+
+            .popup__body__content{
+
+                &-head{
+                    display: flex;
+                    font-size: 1.2rem;
+                    padding: 20px;
+                    align-items: center;
+
+                    span{
+                        display: block;
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                    button {
+                        width: 48px;
+                    }
+                }
+
+                &-body{
+                    padding: 30px;
+                }
+
+                &-foot{
+                    padding: 30px;
+                    margin-top: auto;
+                }
+
+            }
+
+        }
+
+        img{
+            grid-area: 1 / 1;
+            max-width: 755px;
+            object-fit: cover;
+        }
+
+    }
+
+}
+
+.popup-backdrop{
+    z-index: 1998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
