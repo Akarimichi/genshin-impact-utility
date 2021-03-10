@@ -23,6 +23,7 @@ export interface BookProps {
     achievementCategory: number;
     listAchievementsClear: any[];
     setListAchievementsClear: (listAchievementsClear: any[]) => void;
+    setNbrAchievementsClear: (listAchievementsClear: number) => void;
 }
 
 export interface BookRowProps {
@@ -32,15 +33,20 @@ export interface BookRowProps {
     rowActive: string | null;
     listAchievementsClear: any[];
     setListAchievementsClear: (listAchievementsClear: any[]) => void;
+    setNbrAchievementsClear: (listAchievementsClear: number) => void;
 }
 
 export interface AchievementCategoryProps {
     achievementTab: AchievementTitle[];
+    nbrAchievementClear: number;
+    nbrAchievement: number;
 }
 
 export interface AchievementCategoryTitleProps {
     index: number;
     achievementTitle: AchievementTitle;
+    nbrAchievementClear: number;
+    nbrAchievement: number;
 }
 
 export interface FilterAchievementProps {

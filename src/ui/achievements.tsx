@@ -34,6 +34,10 @@ const Achievements = () => {
     const [listAchievementsClear, setListAchievementsClear] = useState<any[]>(
         localStorageAchv
     );
+    const [nbrAchievementsClear, setNbrAchievementsClear] = useState<number>(
+        listAchievementsClear[ achievementCategory ]
+            ? listAchievementsClear[ achievementCategory ].length : 0
+    );
 
     // Filter list achievements
     const filterListAchievements = (
@@ -114,7 +118,11 @@ const Achievements = () => {
                 <span>{_i18n(locale, 'achievements')}</span>
             </div>
             <div className="achievements">
-                <AchievementCategory achievementTab={AchievementsJson} />
+                <AchievementCategory
+                    achievementTab={AchievementsJson}
+                    nbrAchievementClear={nbrAchievementsClear}
+                    nbrAchievement={listAchievementsFull.length}
+                />
                 <Book
                     listAchievementsFull={listAchievementsFull}
                     listAchievements={listAchievements}
@@ -122,6 +130,7 @@ const Achievements = () => {
                     setListAchievements={setListAchievements}
                     listAchievementsClear={listAchievementsClear}
                     setListAchievementsClear={setListAchievementsClear}
+                    setNbrAchievementsClear={setNbrAchievementsClear}
                 />
             </div>
             <FilterAchievement

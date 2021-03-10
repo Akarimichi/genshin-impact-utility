@@ -25,7 +25,8 @@ const BookRow = ({
     setRowActive,
     rowActive,
     listAchievementsClear,
-    setListAchievementsClear
+    setListAchievementsClear,
+    setNbrAchievementsClear
 }: BookRowProps) => {
 
     // State acheivement clear
@@ -52,6 +53,7 @@ const BookRow = ({
             updatedListAchievementsClear[ achievementCategory ].push(item.id);
         }
 
+        setNbrAchievementsClear(updatedListAchievementsClear[ achievementCategory ].length);
         setListAchievementsClear(updatedListAchievementsClear);
         setLocalStorage('achievements', updatedListAchievementsClear, 'json');
         setAchievementAsDone(!achievementDone);
@@ -104,7 +106,8 @@ const Book = ({
     listAchievementsFull,
     achievementCategory,
     listAchievementsClear,
-    setListAchievementsClear
+    setListAchievementsClear,
+    setNbrAchievementsClear
 }: BookProps) => {
 
     // State row active
@@ -162,6 +165,7 @@ const Book = ({
                             setRowActive={setRowActive}
                             listAchievementsClear={listAchievementsClear}
                             setListAchievementsClear={setListAchievementsClear}
+                            setNbrAchievementsClear={setNbrAchievementsClear}
                         />
                     ))}
                 </div>
