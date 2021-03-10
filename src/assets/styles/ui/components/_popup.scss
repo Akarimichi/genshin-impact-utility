@@ -34,8 +34,27 @@
                     }
 
                     button {
+
                         width: 48px;
+                        background-color: transparent;
+                        border: 0;
+                        padding: 2px 8px;
+                        outline: none;
+
+                        svg path{
+                            fill: var(--ui-grey);
+                        }
+
+                        &:active{
+
+                            svg path{
+                                fill: var(--ui-grey-darken);
+                            }
+
+                        }
+
                     }
+
                 }
 
                 &-body{

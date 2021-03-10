@@ -36,7 +36,7 @@ const Popup = forwardRef(({ head, body, foot, show }: PopupProps, ref) => {
 
                                 <div className="popup__body__content-head">
                                     <span>{head}</span>
-                                    <button className="gi__button-circle" onClick={() => showPopup(false)}>
+                                    <button onClick={() => showPopup(false)}>
                                         <CrossIcon />
                                     </button>
                                 </div>
