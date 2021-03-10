@@ -6,6 +6,6 @@
     "search": "Rechercher",
     "home": "Accueil",
     "rotate_device":"Veuillez faire pivoter votre appareil !",
-    "disclaimer_popup_title": "Avertissement",
-    "disclaimer_popup_msg": "Ce site Web n'est pas affilié à Genshin impact officiel et propose des outils pour les joueurs ! Toutes les données et images proviennent de © MiHoYo Co., Ltd. Si vous êtes membre de MiHoYo Co. et que vous souhaitez que ce site Web soit retiré, veuillez me contacter sur Twitter <a target=\"_blank\" href=\"https://twitter.com/akarimichi_\">@akarimichi_</a>."
+    "disclaimer_popup_title": "Avertissement / Crédits",
+    "disclaimer_popup_msg": "Ce site Web n'est pas affilié à Genshin impact officiel et propose des outils pour les joueurs ! Toutes les données et images proviennent de © MiHoYo Co., Ltd. Si vous êtes membre de MiHoYo Co. et que vous souhaitez que ce site Web soit retiré, veuillez me contacter sur Twitter <a target=\"_blank\" href=\"https://twitter.com/akarimichi_\">@akarimichi_</a>.<br/><br/>Remerciement spécial à :<br/><a target=\"_blank\" href=\"https://genshin.honeyhunterworld.com/\">- Honey impact</a><br/><a target=\"_blank\" href=\"https://github.com/Dimbreath/GenshinData\">- Dimbreath</a>"
 }
