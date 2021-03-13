@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { matchPath } from 'react-router';
+import { Link } from 'react-router-dom';
 import _i18n from '../translations/i18n';
 import ImgAchievement from '../assets/images/menu/achievement.png';
 import ArrowIcon from '../assets/images/icon/arrow.svg';
@@ -8,7 +7,6 @@ import HomeIcon from '../assets/images/icon/home.svg';
 import ImgBaner from '../assets/images/menu/banner.png';
 import ImgProfil from '../assets/images/menu/profil.png';
 import { useSelector, useDispatch } from '../redux/store';
-import { LinkType } from '../typings/routes';
 import { MenuProps } from '../typings/menu';
 
 const Menu = ({ locale }: MenuProps) => {

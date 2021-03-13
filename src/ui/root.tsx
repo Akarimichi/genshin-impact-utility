@@ -12,12 +12,12 @@ import moment from 'moment';
 import _i18n from '../translations/i18n';
 import { useLocation } from 'react-router-dom';
 import { matchPath } from 'react-router';
+import Login from './components/login';
 
 type Props = {
     store: Store;
     history: History;
 };
-
 
 const App = () => {
 
@@ -49,7 +49,8 @@ const App = () => {
             <div className="body-container">
                 <Menu locale={locale}/>
                 <Body />
-                <Footer/>
+                <Footer />
+                <Login locale={locale} />
                 <Popup
                     show={showPopupDisclaimer}
                     head={_i18n(locale, 'disclaimer_popup_title')}

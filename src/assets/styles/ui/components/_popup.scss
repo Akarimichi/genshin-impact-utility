@@ -23,11 +23,11 @@
 
                 &-head{
                     display: flex;
-                    font-size: 1.2rem;
-                    padding: 20px;
+                    padding: 25px;
                     align-items: center;
 
                     span{
+                        font-size: 1.4rem;
                         display: block;
                         text-align: center;
                         width: 100%;
@@ -58,11 +58,13 @@
                 }
 
                 &-body{
+                    text-align: justify;
                     padding: 30px;
                 }
 
                 &-foot{
                     padding: 30px;
+                    padding-top: 15px;
                     margin-top: auto;
                 }
 

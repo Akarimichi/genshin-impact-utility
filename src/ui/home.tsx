@@ -14,9 +14,9 @@ const Home = () => {
         refPopup.current.showPopup();
     }; */
 
+
     return (
         <>
-            {/* <Popup show={true}/> */}
         </>
     );
 };

@@ -10,6 +10,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FontminPlugin = require('fontmin-webpack');
 const CopyPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
+const Dotenv = require('dotenv-webpack');
 
 
 module.exports = {
@@ -146,7 +147,8 @@ module.exports = {
                 }
             ],
         ),
-        new webpack.ContextReplacementPlugin(/moment[\\\/]locale$/, /^\.\/(fr|en-gb)$/)
+        new webpack.ContextReplacementPlugin(/moment[\\\/]locale$/, /^\.\/(fr|en-gb)$/),
+        new Dotenv()
     ],
     devServer: {
         historyApiFallback: true,

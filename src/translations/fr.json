@@ -7,5 +7,19 @@
     "home": "Accueil",
     "rotate_device":"Veuillez faire pivoter votre appareil !",
     "disclaimer_popup_title": "Avertissement / Crédits",
-    "disclaimer_popup_msg": "Ce site Web n'est pas affilié à Genshin impact officiel et propose des outils pour les joueurs ! Toutes les données et images proviennent de © MiHoYo Co., Ltd. Si vous êtes membre de MiHoYo Co. et que vous souhaitez que ce site Web soit retiré, veuillez me contacter sur Twitter <a target=\"_blank\" href=\"https://twitter.com/akarimichi_\">@akarimichi_</a>.<br/><br/>Remerciement spécial à :<br/><a target=\"_blank\" href=\"https://genshin.honeyhunterworld.com/\">- Honey impact</a><br/><a target=\"_blank\" href=\"https://github.com/Dimbreath/GenshinData\">- Dimbreath</a>"
+    "disclaimer_popup_msg": "Ce site Web n'est pas affilié à Genshin impact officiel et propose des outils pour les joueurs ! Toutes les données et images proviennent de © MiHoYo Co., Ltd. Si vous êtes membre de MiHoYo Co. et que vous souhaitez que ce site Web soit retiré, veuillez me contacter sur Twitter <a target=\"_blank\" href=\"https://twitter.com/akarimichi_\">@akarimichi_</a>.<br/><br/>Remerciement spécial à :<br/><a target=\"_blank\" href=\"https://genshin.honeyhunterworld.com/\">- Honey impact</a><br/><a target=\"_blank\" href=\"https://github.com/Dimbreath/GenshinData\">- Dimbreath</a>",
+    "login_google": "Connexion avec Google",
+    "login_twitter": "Connexion avec Twitter",
+    "auth_failed": "Authentification échouée !",
+    "auth_failed_msg": "Un problème est survenue lors de l'authentification. Merci de réessayer une nouvelle fois.",
+    "log_in": "Connexion",
+    "to_log_in": "Se connecter",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "to_register": "S'inscrire",
+    "register": "Inscription",
+    "or": "Ou",
+    "username": "Pseudonyme",
+    "confirm_password": "Confirmation mot de passe",
+    "auth_bad_credentials_msg": "L'adresse email et le mot de passe que vous avez entrés ne correspondent pas à ceux présents dans nos fichiers. Merci de réessayer une nouvelle fois."
 }

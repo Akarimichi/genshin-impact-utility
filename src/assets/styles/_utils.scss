@@ -1,0 +1,36 @@
+
+.full-width{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.m{
+    &r{
+
+        &-10{
+            margin-right: 10px;
+        }
+
+        &-auto{
+            margin-right: auto;
+        }
+    }
+
+    &l{
+
+        &-10{
+            margin-left: 10px;
+        }
+
+        &-auto{
+            margin-left: auto;
+        }
+    }
+
+    &-auto{
+        margin: auto;
+    }
+}

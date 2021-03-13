@@ -7,5 +7,19 @@
     "home": "Home",
     "rotate_device": "Please rotate your device !",
     "disclaimer_popup_title": "Disclaimer / Credits",
-    "disclaimer_popup_msg": "This website is not affiliated to official Genshin impact and offers tools for gamers  ! All data and images are from ©MiHoYo Co., Ltd. If you are a member of MiHoYo Co. and you want this website taken down please contact me on twitter <a target=\"_blank\" href=\"https://twitter.com/akarimichi_\">@akarimichi_</a>.<br/><br/>Special thanks to :<br/><a target=\"_blank\" href=\"https://genshin.honeyhunterworld.com/\">- Honey impact</a><br/><a target=\"_blank\" href=\"https://github.com/Dimbreath/GenshinData\">- Dimbreath</a>"
+    "disclaimer_popup_msg": "This website is not affiliated to official Genshin impact and offers tools for gamers  ! All data and images are from ©MiHoYo Co., Ltd. If you are a member of MiHoYo Co. and you want this website taken down please contact me on twitter <a target=\"_blank\" href=\"https://twitter.com/akarimichi_\">@akarimichi_</a>.<br/><br/>Special thanks to :<br/><a target=\"_blank\" href=\"https://genshin.honeyhunterworld.com/\">- Honey impact</a><br/><a target=\"_blank\" href=\"https://github.com/Dimbreath/GenshinData\">- Dimbreath</a>",
+    "login_google": "Login with Google",
+    "login_twitter": "Login with Twitter",
+    "auth_failed": "Authentication failed !",
+    "auth_failed_msg": "A problem occurred during authentication. Please try again.",
+    "log_in": "Log in",
+    "to_log_in": "Log in",
+    "email": "E-mail",
+    "password": "Password",
+    "to_register": "Sign up",
+    "register": "Registration",
+    "or": "Or",
+    "username": "Username",
+    "confirm_password": "Confirm password",
+    "auth_bad_credentials_msg": "The email and password you entered did not match our records. Please try again."
 }

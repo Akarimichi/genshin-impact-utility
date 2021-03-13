@@ -173,6 +173,10 @@ html {
     }
 }
 
+/*
+* Button / Input
+*/
+
 .gi__input{
     background-color: var(--ui-white);
     border: 2px solid var(--ui-white);
@@ -180,10 +184,16 @@ html {
     border-radius: 25px;
     font-family: 'HYWenHei-85W';
     color: var(--ui-grey);
-    font-size: 1rem;
-    outline: none!important;
-    padding: 2px 8px;
+    outline: none !important;
+    padding: 7px 10px;
     width: 180px;
+    min-height: 50px;
+    font-size: 1.1rem;
+
+    &:focus{
+        border: 2px solid var(--ui-white-darken);
+        box-shadow: 0 0 0 3px var(--white);
+    }
 }
 
 .gi__button-circle{
@@ -214,5 +224,50 @@ html {
             fill: var(--white);
         }
 
+    }
+}
+
+
+.gi__button{
+    background-color: var(--ui-blue-dark);
+    border: 3px solid var(--ui-blue-dark);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 35px;
+    font-family: 'HYWenHei-85W';
+    color: var(--ui-white);
+    font-size: 1.1rem;
+    outline: none!important;
+    padding: 7px 10px;
+    min-height: 54px;
+    display: inline-flex;
+    align-items: center;
+
+    .picto{
+        display: inline-flex;
+        align-items: center;
+        margin-right: 10px;
+        border-radius: 100%;
+        padding: 8px;
+        background-color: var(--ui-white);
+
+        &.login-icon svg{
+            fill: var(--ui-blue-dark);
+        }
+
+    }
+
+    &:hover{
+        border: 3px solid var(--ui-orange-light);
+    }
+
+
+    &:focus{
+        border: 3px solid var(--ui-orange-light);
+    }
+
+    &:active{
+        background-color:  var(--ui-brown-light);
+        border: 3px solid var(--ui-brown-darken);
+        color: var(--ui-brown-darken);
     }
 }

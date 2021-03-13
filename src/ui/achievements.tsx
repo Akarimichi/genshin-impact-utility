@@ -93,11 +93,6 @@ const Achievements = () => {
                 return true;
             }
 
-            /* filteredGalleryList = this.state.galleryList!.filter(item => {
-                let date = moment(item.stat.mtime.getTime()).format('MMMM YYYY');
-                return (item.vrmPath.toLowerCase().includes(this.state.search.toLowerCase()) || date.toLowerCase().includes(this.state.search.toLowerCase()));
-            }); */
-
         });
 
         return listAchievements;

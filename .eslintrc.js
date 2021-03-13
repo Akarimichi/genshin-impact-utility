@@ -48,7 +48,7 @@ module.exports = {
         'arrow-spacing': ['error', { 'before': true, 'after': true }],
         'block-spacing': ['error', 'always'],
         'comma-spacing': ['error', { 'before': false, 'after': true }],
-        'computed-property-spacing': ['error', 'always'],
+        'computed-property-spacing': 'off',
         'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
         'keyword-spacing': ['error', { 'before': true, 'after': true }],
         'object-curly-spacing': ['error', 'always'],
