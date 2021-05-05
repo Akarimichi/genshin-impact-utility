@@ -7,14 +7,20 @@ import HomeIcon from '../assets/images/icon/home.svg';
 import ImgBaner from '../assets/images/menu/banner.png';
 import ImgProfil from '../assets/images/menu/profil.png';
 import { useSelector, useDispatch } from '../redux/store';
+import EditIcon from '../assets/images/icon/edit.svg';
+import LoginIcon from '../assets/images/icon/login.svg';
+import LogoutIcon from '../assets/images/icon/logout.svg';
 import { MenuProps } from '../typings/menu';
+import authProvider from '../utils/auth-provider';
 
 const Menu = ({ locale }: MenuProps) => {
 
 
     const dispatch = useDispatch();
-    const { menuActive } = useSelector((state) => ({
-        menuActive: state.menu.menuActive
+    const { menuActive, user, popupLoginShow } = useSelector((state) => ({
+        menuActive: state.menu.menuActive,
+        user: state.user.user,
+        popupLoginShow: state.menu.popupLoginShow
     }));
 
     const handleKeyPressEchap = (e: KeyboardEvent) => {
@@ -60,10 +66,44 @@ const Menu = ({ locale }: MenuProps) => {
                 </div>
                 <div className="menu__nav-right">
                     <div className="menu__nav-right-urserInfos">
-                        <img src={ImgBaner}/>
-                        <div className="profil">
-                            <img src={ImgProfil} />
-                        </div>
+                        <img src={ImgBaner} />
+
+                        {/* Login */}
+                        {user && <div className="profil">
+                            <div className="first-col"><img src={ImgProfil} /></div>
+                            <div className="second-col">
+                                <div className="row">
+                                    <span className="username">{user.username}</span>
+                                    <button className="gi__button-square"><EditIcon/></button>
+                                </div>
+                                <div className="row">
+                                    <button
+                                        className="gi__button-square"
+                                        onClick={() => {
+                                            authProvider.logout(dispatch);
+                                        }}
+                                    ><LogoutIcon />{_i18n(locale, 'log_out')}</button>
+                                </div>
+                            </div>
+                        </div>}
+
+                        {/* Logout */}
+                        {!user && <div className="profil">
+                            <div className="first-col"><img src={ImgProfil} /></div>
+                            <div className="second-col">
+                                <div className="row">
+                                    <button
+                                        className="gi__button-square"
+                                        onClick={() => {
+                                            if (popupLoginShow) {
+                                                popupLoginShow.showPopup(true);
+                                            }
+                                        }}
+                                    ><LoginIcon />{_i18n(locale, 'log_in')}</button>
+                                </div>
+                            </div>
+                        </div>}
+
                     </div>
                     <div className="menu__nav-right-itemList">
                         <Link className="menu__nav-right-itemList-item home" to={`/${locale}/`}>

@@ -13,6 +13,7 @@
     "auth_failed": "Authentification échouée !",
     "auth_failed_msg": "Un problème est survenue lors de l'authentification. Merci de réessayer une nouvelle fois.",
     "log_in": "Connexion",
+    "log_out": "Déconnexion",
     "to_log_in": "Se connecter",
     "email": "E-mail",
     "password": "Mot de passe",

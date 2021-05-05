@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import AchievementsJson from '../data/achievements.json';
 import Book from './components/book';
 import FilterAchievement, { selectOptionsStatut, selectOptionsVersion } from './components/filter-achievement';
@@ -9,6 +9,7 @@ import { LinkType } from '../typings/routes';
 import { useParams, useHistory, useLocation } from 'react-router-dom';
 import { Achievement } from '../typings/achievement';
 import { getLocalStorage } from '../utils/utils';
+import { axiosApiInstance } from '../utils/auth-provider';
 
 
 const Achievements = () => {
@@ -25,15 +26,10 @@ const Achievements = () => {
     const [achievementCategory, setAchievementCategory] = useState<number>(0);
 
     // State full list achievements
-    const [listAchievementsFull, setListAchievementsFull] = useState<Achievement[]>(
-        AchievementsJson[ achievementCategory ].achievements
-    );
+    const [listAchievementsFull, setListAchievementsFull] = useState<Achievement[]>([]);
 
     // State list achievements clear
-    const localStorageAchv: any[] = getLocalStorage('achievements', 'json');
-    const [listAchievementsClear, setListAchievementsClear] = useState<any[]>(
-        localStorageAchv
-    );
+    const [listAchievementsClear, setListAchievementsClear] = useState<any[]>([]);
     const [nbrAchievementsClear, setNbrAchievementsClear] = useState<number>(
         listAchievementsClear[ achievementCategory ]
             ? listAchievementsClear[ achievementCategory ].length : 0
@@ -101,10 +97,37 @@ const Achievements = () => {
 
     // State list achievements filtered
     const [listAchievements, setListAchievements] = useState<Achievement[]>(
-        filterListAchievements()
+        []
     );
 
 
+
+    const getAchievementCategories = () => {
+        return axiosApiInstance.get(`${process.env.API_GENSHIN_UTILTY_URL}/achievement`);
+    };
+
+    const getAchievements = (category: number) => {
+        return axiosApiInstance.get(`${process.env.API_GENSHIN_UTILTY_URL}/achievement/${category}/list`)
+    };
+
+
+    useEffect(() => {
+
+        (async () => {
+
+            // Get categories
+            const categories = (await getAchievementCategories())
+            .data.achievement_categories;
+
+            const firstCatId = categories[0].id;
+
+            // Get achievements of the first category
+            const achievements = (await getAchievements(firstCatId)).data.achievements;
+            setListAchievements(achievements);
+
+        })();
+
+    }, []);
 
     return (
         <>

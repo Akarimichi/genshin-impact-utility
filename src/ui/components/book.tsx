@@ -124,9 +124,9 @@ const Book = ({
 
             scrollHammer.on('panup pandown', (event) => {
                 if (event.type === 'pandown') {
-                    scrollDOM.scrollTop = scrollDOM.scrollTop - 8;
+                    scrollDOM.scrollTop = scrollDOM.scrollTop - 20;
                 } else {
-                    scrollDOM.scrollTop = scrollDOM.scrollTop + 8;
+                    scrollDOM.scrollTop = scrollDOM.scrollTop + 20;
                 }
             });
             setMounted(true);

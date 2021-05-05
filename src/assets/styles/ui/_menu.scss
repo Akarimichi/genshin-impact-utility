@@ -68,10 +68,46 @@
                 position: absolute;
                 top: 20px;
                 left: 20px;
+                display: grid;
+                grid-template-columns: 170px 307px;
 
-                img {
-                    width: 130px;
+                .first-col{
+                    text-align: center;
+                    img {
+                        width: 130px;
+                    }
                 }
+
+                .second-col{
+
+                    width: 100%;
+
+                    .row{
+                        display: flex;
+                        font-size: 1.5rem;
+                        color:var(--ui-white);
+                        background-image: linear-gradient(-0.25turn,rgba(0, 0, 0, 0.1), 80%, rgba(0, 0, 0, 0.2));
+                        padding: 5px;
+                        align-items: center;
+                        margin-top: 20px;
+
+                        &:first-child{
+                            margin: 0;
+                        }
+
+                        span.username {
+                            text-overflow: ellipsis;
+                            width: 245px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+
+                        button{
+                            margin-left: auto;
+                        }
+                    }
+                }
+
             }
         }
 

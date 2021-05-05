@@ -13,6 +13,7 @@
     "auth_failed": "Authentication failed !",
     "auth_failed_msg": "A problem occurred during authentication. Please try again.",
     "log_in": "Log in",
+    "log_out": "Log out",
     "to_log_in": "Log in",
     "email": "E-mail",
     "password": "Password",

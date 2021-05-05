@@ -10,7 +10,7 @@
     "scripts": {
         "lint": "eslint \"src/**/*.ts\"",
         "build": "cross-env NODE_ENV=production webpack --mode production",
-        "start": "webpack-dev-server --port 9000"
+        "start": "webpack-dev-server --port 9001"
     },
     "dependencies": {
         "axios": "^0.21.1",

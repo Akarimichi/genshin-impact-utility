@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Popup from './popup';
 import { GoogleLogin, GoogleLoginResponse } from 'react-google-login';
 import TwitterLogin from 'react-twitter-auth';
@@ -7,9 +7,9 @@ import GoogleIcon from '../../assets/images/icon/google.svg';
 import TwitterIcon from '../../assets/images/icon/twitter.svg';
 import LoginIcon from '../../assets/images/icon/login.svg';
 import EditIcon from '../../assets/images/icon/edit.svg';
-import { useDispatch } from '../../redux/store';
+import { useDispatch, useSelector } from '../../redux/store';
 import { LoginContainerProps, LoginProps, RegisterContainerProps } from '../../typings/login';
-import authProvider, { axiosApiInstance } from '../../utils/auth-provider';
+import authProvider from '../../utils/auth-provider';
 
 
 
@@ -175,6 +175,9 @@ const Login = ({
 }: LoginProps) => {
 
     const dispatch = useDispatch();
+    const { popupLoginShow } = useSelector((state) => ({
+        popupLoginShow: state.menu.popupLoginShow
+    }));
 
     // MSG auth failed
     const refPopupAuth = useRef(null);
@@ -227,10 +230,10 @@ const Login = ({
     // State show login / register
     const [loginContainerShow, setLoginContainerShow] = useState<boolean>(true);
 
+    useEffect(() => {
+        dispatch({ type: 'Login/ShowPopup', popupLoginShow: refPopupAuth.current });
+    }, []);
 
-    /* const getUserLoginApi = () => {
-        axiosApiInstance.get(`${process.env.API_GENSHIN_UTILTY_URL}/users/self`);
-    }; */
 
     return (
         <>
@@ -241,7 +244,7 @@ const Login = ({
                         {(loginContainerShow ? _i18n(locale, 'log_in') : _i18n(locale, 'register'))}
                     </>
                 }
-                show={true}
+                show={false}
                 body={
                     <>
                         {loginContainerShow &&

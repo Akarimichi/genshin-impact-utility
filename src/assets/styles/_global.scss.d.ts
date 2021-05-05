@@ -3,6 +3,7 @@ declare const styles: {
   readonly "body-content": string;
   readonly "gi__button": string;
   readonly "gi__button-circle": string;
+  readonly "gi__button-square": string;
   readonly "gi__input": string;
   readonly "login-icon": string;
   readonly "menu-open": string;
